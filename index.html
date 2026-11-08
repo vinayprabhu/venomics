@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#000"><title>Trace the adventurous journey that a venom takes to become a drug! · Venomics AI</title><meta name="description" content="Explore four venom-to-medicine pathways through animal anatomy, molecular structures and biological mechanisms."><link rel="stylesheet" href="board.css?v=github1"><link rel="preload" href="assets/SourceCodePro.ttf" as="font" type="font/ttf" crossorigin></head>
+<body>
+<div id="smoke-fallback" aria-hidden="true"><i></i><i></i></div><canvas id="smoke" aria-hidden="true"></canvas>
+<audio id="flow-audio" preload="auto" loop playsinline src="media/audio/blood-flow-supplied.mp3"></audio>
+<audio id="ambient-audio" preload="auto" loop playsinline src="media/audio/venomics-atmosphere.mp3"></audio>
+<div id="sound-controls"><button id="sound" aria-pressed="false">▶ Play sound</button><input id="volume" type="range" min="0" max="1" step="0.05" value="0.65" aria-label="Sound volume"></div>
+<script type="module" src="atmosphere.js?v=11"></script>
+<header class="event"><div id="brand" role="img" aria-label="Venomics AI animated logo"><video id="brand-video" autoplay muted loop playsinline preload="auto" poster="media/video/venomics-logo-poster.jpg" aria-hidden="true"><source src="media/video/venomics_logo_animated.mp4" type="video/mp4"></video></div></header>
+<h1 class="exhibit-title">Trace the adventurous journey that a venom takes to become a drug!</h1>
+<main id="board" aria-label="Venom to medicine journeys"><div class="column-headings"><span>Fauna</span><span>Venom apparatus</span><span>Venom</span><span>Peptide</span><span>Biological action</span><span>Commercial drug</span></div><div id="rows"></div></main>
+<footer><button id="expand" aria-label="Reveal all stages" title="Reveal all stages">↔</button><button id="reset" aria-label="Reset exploration" title="Reset exploration">↺</button><button id="sources" aria-label="Sources and asset credits" title="Sources and asset credits">ⓘ</button></footer>
+<div id="lens" hidden role="dialog" aria-modal="true" aria-label="Venom to medicine journey">
+ <div class="lens-top"><button id="close" aria-label="Return to all animal rows">↖ All animals</button><span id="lens-species"></span><span id="lens-stage"></span></div>
+ <div id="viewport"><div id="camera"></div><div id="live-stage"></div></div>
+ <button id="previous" class="edge-nav previous" aria-label="Previous stage"><span>‹</span><small>Back</small></button>
+ <button id="next" class="edge-nav next" aria-label="Next stage"><span>›</span><small id="next-label"></small></button>
+ <div id="lens-detail"></div><button id="asset-info" aria-label="Source of this asset">ⓘ</button>
+ <section id="journey-dock" aria-label="Journey context">
+  <nav id="animal-nav" aria-label="Choose an animal"></nav>
+  <div class="dock-progress"><div id="stage-progress" aria-live="polite"></div></div>
+  <div id="trail" aria-label="All stages of the current animal"></div>
+ </section>
+</div>
+<dialog id="record"><button id="close-record" aria-label="Close sources">×</button><div id="record-body"></div></dialog>
+<div id="notice" role="status"></div><script type="module" src="board.js?v=github1"></script>
+</body></html>
