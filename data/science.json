@@ -1,6 +1,6 @@
 {
   "jararaca": {
-    "commonName": "Brazilian pit viper",
+    "commonName": "Jararaca (a Brazilian pit viper)",
     "species": "Bothrops jararaca",
     "molecule": "teprotide",
     "target": "ACE",
@@ -14,7 +14,7 @@
     "mechanismShort": "Less angiotensin II. Less vasoconstriction.",
     "bridge": "Teprotide established that ACE inhibition could lower blood pressure. Medicinal chemistry produced an orally active, non-peptide inhibitor: captopril.",
     "drugNote": "Captopril is synthesized. It is neither extracted venom nor the teprotide peptide.",
-    "anatomy": "Paired venom glands behind the eyes connect through ducts to hollow, hinged upper fangs.",
+    "anatomy": "Main venom glands behind the eyes connect through primary ducts, accessory glands and secondary ducts to hollow upper fangs.",
     "timeline": [
       {
         "year": 1965,
@@ -29,7 +29,7 @@
         "label": "Captopril receives US approval for hypertension."
       }
     ],
-    "structureNote": "Illustrative computed conformer from the exact stereochemical graph of PubChem CID 443376. Not an experimentally determined fold and not a binding pose. Lowest MMFF94 energy among 12 generated conformers; seed 20881. N-terminal pyroglutamate is explicitly modeled. Target view: 1UZF is a crystal structure of human testicular ACE with captopril, not a teprotide–ACE complex.",
+    "structureNote": "Illustrative computed conformer from the exact stereochemical graph of PubChem CID 443376. Not an experimentally determined fold and not a binding pose. Lowest MMFF94 energy among 12 generated conformers; seed 20881. N-terminal pyroglutamate is explicitly modeled. Target view: 1UZF is a crystal structure of human testicular ACE with captopril, not a teprotide–ACE complex. Testicular ACE corresponds to the somatic ACE C-domain; this is an active-site model, not the complete pulmonary endothelial protein. Catalytic zinc is displayed at its deposited position.",
     "sources": [
       {
         "label": "Ferreira · venom discovery, 1965",
@@ -58,6 +58,10 @@
       {
         "label": "ACE + captopril crystal structure · PDB 1UZF",
         "url": "https://www.rcsb.org/structure/1UZF"
+      },
+      {
+        "label": "Testicular ACE and somatic C-domain relationship",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1892614/"
       }
     ]
   },
@@ -67,7 +71,7 @@
     "molecule": "exendin4",
     "target": "GLP-1 receptor",
     "drug": "Exenatide",
-    "brand": "Byetta",
+    "brand": "Byetta (historical illustration)",
     "drugType": "Synthetic peptide",
     "indication": "Type 2 diabetes",
     "sequence": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS",
@@ -77,7 +81,7 @@
     "mechanism": "GLP-1 receptor activation increases glucose-dependent insulin secretion, reduces inappropriately elevated glucagon and slows gastric emptying.",
     "mechanismShort": "Activate GLP-1R. Support glucose-dependent insulin release.",
     "bridge": "Isolation of exendin-4 led to synthetic exenatide, formulated for subcutaneous delivery.",
-    "drugNote": "Ozempic (semaglutide) is a modified human GLP-1 analogue, not an exendin-4 derivative.",
+    "drugNote": "The Byetta pen is a historical illustration. FDA withdrew its US NDA approval on 3 September 2025; EU authorization was withdrawn on 1 January 2026 for commercial reasons. FDA approved generic exenatide on 19 November 2024. Availability varies by jurisdiction. Ozempic (semaglutide) is a modified human GLP-1 analogue, not an exendin-4 derivative.",
     "anatomy": "Venom is made in glands of the lower jaw and reaches grooved lower teeth during a bite.",
     "timeline": [
       {
@@ -96,10 +100,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/1313797/"
       },
       {
-        "label": "Byetta · prescribing information and sequence",
-        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f"
-      },
-      {
         "label": "Exendin-4 NMR structure · PDB 1JRJ",
         "url": "https://www.rcsb.org/structure/1JRJ"
       },
@@ -110,6 +110,22 @@
       {
         "label": "Gila venom anatomy · original research",
         "url": "https://pubmed.ncbi.nlm.nih.gov/37181791/"
+      },
+      {
+        "label": "Current US generic exenatide label (Amneal), updated May 2026",
+        "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e6cb5c8f-e97f-4a6a-95a4-939fd2393949"
+      },
+      {
+        "label": "FDA: NDA 021773 (Byetta) withdrawal effective 3 September 2025",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-08-04/pdf/2025-14683.pdf"
+      },
+      {
+        "label": "EMA: Byetta EU marketing-authorisation withdrawal, effective 1 January 2026",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/byetta"
+      },
+      {
+        "label": "FDA: 2024 first generic drug approvals; exenatide, ANDA 206697, 19 November 2024",
+        "url": "https://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/2024-first-generic-drug-approvals"
       }
     ]
   },
@@ -129,19 +145,19 @@
     "mechanism": "Blockade of N-type (CaV2.2) calcium channels in spinal pain pathways reduces neurotransmitter release.",
     "mechanismShort": "Block calcium entry. Reduce pain-signal transmission.",
     "bridge": "Chemical synthesis reproduces the peptide and its three disulfide bonds. Delivery into spinal fluid brings the drug to its site of action.",
-    "drugNote": "Prialt is administered by intrathecal infusion for severe chronic pain in selected patients. It is not an oral analgesic.",
-    "anatomy": "A venom duct connects to a proboscis that deploys a hollow, harpoon-like radular tooth.",
+    "drugNote": "Prialt is for adults with severe chronic pain for whom intrathecal therapy is warranted and who are intolerant of or refractory to other treatments. It is infused into spinal fluid using a pump. Serious neurological and psychiatric adverse effects require careful selection and monitoring; it is contraindicated in people with a history of psychosis.",
+    "anatomy": "A muscular venom bulb propels secretion from the elongated venom gland through the delivery apparatus to a radular tooth held at the proboscis tip.",
     "timeline": [
       {
         "year": 2004,
         "label": "Ziconotide receives US approval."
       }
     ],
-    "structureNote": "First deposited NMR conformer. 25 amino acids; the terminal NH2 chemical group is not a 26th amino acid. Three disulfide bridges.",
+    "structureNote": "First deposited NMR conformer. 25 amino acids; the terminal NH2 chemical group is not a 26th amino acid. Three disulfide bridges. Disulfide pairings: Cys1–Cys16, Cys8–Cys20 and Cys15–Cys25. Motion is illustrative, not an experimentally recorded gating movie.",
     "sources": [
       {
         "label": "Prialt · prescribing information",
-        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b025d8ed-937d-4597-9ad1-0b2f6e0ee5b1"
+        "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe"
       },
       {
         "label": "MVIIA NMR structure · PDB 1OMG",
@@ -213,14 +229,14 @@
     "sequence": "IIYPGTLWCGHGNKSSGPNELGRFKHTDACCRTHDMCPDVMSAGESKHGLTNTASHTRLSCDCDDKFYDCLKNSADTISSYFVGKMYFNLIDTKCYKLEHPVTGCGERTEGRCLHYTVDKSKPKVYQWFDLRKY",
     "residueCount": 134,
     "modifications": "Representative allergen Api m 1; not the entire medicine",
-    "moleculeNote": "Api m 1 (phospholipase A₂) is one important venom allergen. Apitoxin means bee venom, a mixture; it is not a single peptide.",
-    "mechanism": "Repeated, medically supervised venom-allergen exposure can reduce the severity of allergic reactions to future stings; multiple immune mechanisms contribute.",
+    "moleculeNote": "Api m 1 (phospholipase A₂) is one important venom allergen. Its mature chain in PDB 1POC has 134 residues; the precursor is a different sequence. Apitoxin means bee venom, a mixture.",
+    "mechanism": "Subcutaneous venom immunotherapy can reduce allergic reactivity through multiple processes, including regulatory T- and B-cell responses, IL-10 and allergen-specific antibodies such as IgG4. The antibody animation illustrates one contributing process, not the entire treatment mechanism.",
     "mechanismShort": "Build immune tolerance. Reduce reactions to future stings.",
     "bridge": "A standardized venom extract is formulated for specialist-supervised allergy immunotherapy.",
-    "drugNote": "The clinical product contains a venom mixture. Showing one allergen does not mean that isolated Api m 1 is the marketed treatment.",
+    "drugNote": "The clinical product contains a venom mixture. Showing one allergen does not mean that isolated Api m 1 is the marketed treatment. The extract is injected under the skin under specialist supervision; treatment can itself cause systemic allergic reactions.",
     "anatomy": "Venom glands supply a reservoir linked to the stinger at the tip of a female worker’s abdomen.",
     "timeline": [],
-    "structureNote": "Honeybee venom phospholipase A2 (Api m 1), 134 residues, shown as one representative allergen. Clinical venom immunotherapy uses a standardized mixture, not this isolated molecule. Bound analogue, calcium, waters and carbohydrate omitted.",
+    "structureNote": "PDB 1POC supplies the 134-residue mature Api m 1 protein chain. The deposited complex contains calcium and a transition-state analogue; these and other ancillary groups are omitted in the protein-only display. It contains no human antibody. All antibody shapes, binding movements and immune-cell interactions are schematic. Clinical venom immunotherapy uses a venom mixture, not isolated Api m 1.",
     "sources": [
       {
         "label": "Honeybee venom · licensed product labeling",
@@ -245,6 +261,14 @@
       {
         "label": "IL-10 in bee venom immunotherapy · original research",
         "url": "https://www.jci.org/articles/view/2250"
+      },
+      {
+        "label": "van de Veen et al., 2013: IL-10-producing regulatory B cells and IgG4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23453135/"
+      },
+      {
+        "label": "2009 primary study: inhibitory activity for allergen-IgE binding during bee venom immunotherapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19538349/"
       }
     ]
   }

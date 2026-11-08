@@ -44,3 +44,7 @@ Keep the Sources control and the attribution data when redistributing. Photograp
 ## Deployment automation
 
 The workflow in `.github/workflows/pages.yml` runs on pushes to `main` and supports the manual **Run workflow** button. `scripts/package_site.py` copies the runtime files to `_site/`, leaving narration and repository configuration out of the public website artifact. Source and asset attribution data remain included. The original ChatGPT-hosted website is independent and is not updated by this workflow. Changes made there do not synchronize automatically into this GitHub repository.
+
+## Scientific review
+
+The 8 November 2026 review updates narration, labels, treatment routes and structural context. See [SCIENCE_REVIEW.md](SCIENCE_REVIEW.md) for decisions and primary sources. Run `python scripts/check_science.py` and `node scripts/check_audio.mjs` to check narration consistency and circulation-audio routing.

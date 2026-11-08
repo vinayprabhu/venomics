@@ -1,7 +1,7 @@
 // Locally rendered original soundtrack, independent of Web Audio scheduling.
 export class Atmosphere {
  constructor(){
-  this.animal=new Audio();this.animal.preload='auto';this.animal.hidden=true;this.animal.dataset.effect='animal';document.body.append(this.animal);this.animalId=null;this.audio=document.querySelector('#ambient-audio');this.flow=document.querySelector('#flow-audio');this.button=document.querySelector('#sound');this.volume=document.querySelector('#volume');this.enabled=true;this.pending=false;this.biological=false;this.clickIndex=0;
+  this.animal=new Audio();this.animal.preload='auto';this.animal.hidden=true;this.animal.dataset.effect='animal';document.body.append(this.animal);this.animalId=null;this.audio=document.querySelector('#ambient-audio');this.flow=document.querySelector('#flow-audio');this.button=document.querySelector('#sound');this.volume=document.querySelector('#volume');this.enabled=true;this.pending=false;this.biological=false;this.circulation=false;this.clickIndex=0;
   this.clicks=Array.from({length:5},()=>{const a=new Audio('media/audio/interface-click.wav');a.preload='auto';a.dataset.effect='click';a.hidden=true;document.body.append(a);return a;});
   this.audio.loop=this.flow.loop=true;this.audio.muted=this.flow.muted=false;this.mix();
   this.button.addEventListener('click',()=>{if(this.pending)return;if(!this.audio.paused){this.enabled=false;this.audio.pause();this.flow.pause();this.animal.pause();this.clicks.forEach(a=>a.pause());}else{this.enabled=true;this.click();this.start();}this.sync();});
@@ -16,8 +16,8 @@ export class Atmosphere {
  click(){if(!this.enabled||!Number(this.volume.value))return;const a=this.clicks[this.clickIndex++%this.clicks.length];a.currentTime=0;a.play().catch(()=>{});}
  sync(){const playing=!this.audio.paused&&!this.audio.muted&&Number(this.volume.value)>0;this.button.textContent=this.pending?'… Loading audio':playing?'Ⅱ Sound on':'▶ Play sound';this.button.setAttribute('aria-pressed',String(playing));this.button.setAttribute('aria-label',playing?'Mute all sounds':'Play sound');this.button.title=playing?'Mute music, animal sounds, clicks and blood-flow sound':'Play music and sound effects';document.querySelector('#sound-controls').classList.toggle('playing',playing);}
  async start(){if(!this.enabled||this.pending||!this.audio.paused)return;this.pending=true;this.sync();try{if(this.audio.error)this.audio.load();this.audio.muted=false;await this.audio.play();if(this.biological)this.playFlow();this.playAnimal();}catch(error){this.button.title='Tap Play sound to enable audio in your browser.';}finally{this.pending=false;this.sync();}}
- playFlow(){if(this.enabled&&this.biological&&!document.hidden)this.flow.play().catch(()=>{});}
- setBiologicalAction(active){this.biological=active;this.mix();if(active)this.playFlow();else{this.flow.pause();this.flow.currentTime=0;}}
+ playFlow(){if(this.enabled&&this.circulation&&!document.hidden)this.flow.play().catch(()=>{});}
+ setBiologicalAction(active,circulation=false){this.biological=active;this.circulation=active&&circulation;this.mix();if(this.circulation)this.playFlow();else{this.flow.pause();this.flow.currentTime=0;}}
  setAnimal(id){if(id===this.animalId)return;this.animal.pause();this.animal.currentTime=0;this.animalId=id;if(id){this.animal.src=`media/audio/adventures/${id}.mp3`;this.animal.loop=true;}this.mix();if(id)this.playAnimal();}
  playAnimal(){if(this.animalId&&this.enabled&&!document.hidden)this.animal.play().catch(()=>{});}
  smoke(){

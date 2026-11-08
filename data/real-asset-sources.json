@@ -134,7 +134,7 @@
       568,
       1280
     ],
-    "displayNote": "CSS crop panel B only: x=0,y=290,width=568,height=310 in original 568\u00d71280 image; retain label as MRI."
+    "displayNote": "CSS crop panel B only: x=0,y=290,width=568,height=310 in original 568×1280 image; retain label as MRI."
   },
   "jararaca-delivery": {
     "path": "media/anatomy/jararaca-delivery.jpg",
@@ -165,13 +165,13 @@
     "sourceUrl": "https://www.mdpi.com/2079-6382/12/4/779",
     "imageUrl": "https://mdpi-res.com/antibiotics/antibiotics-12-00779/article_deploy/html/images/antibiotics-12-00779-g004.png",
     "description": "Figure 4: collection and storage of Apis mellifera venom; A collection box, B electrostimulation, C dry venom recovered, D stored venom.",
-    "license": "CC BY 4.0, P\u00e9rez-Delgado et al. 2023",
+    "license": "CC BY 4.0, Pérez-Delgado et al. 2023",
     "bytes": 1727968,
     "dimensions": [
       1816,
       2366
     ],
-    "displayNote": "Panel D shows the stored collected sample; panels A\u2013C show real collection process."
+    "displayNote": "Panel D shows the stored collected sample; panels A–C show real collection process."
   },
   "cone-venom": {
     "path": "media/anatomy/cone-venom.png",
@@ -196,6 +196,7 @@
     "dimensions": [
       420,
       158
-    ]
+    ],
+    "displayNote": "Historical Byetta pen photograph. Brand withdrawal and generic exenatide approval are separate events; see the drug notes."
   }
 }

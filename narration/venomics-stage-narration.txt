@@ -1,35 +1,33 @@
-VENOMICS AI | STAGE NARRATION
+VENOMICS AI | REVIEWED STAGE NARRATION
+Review date: 8 November 2026 | GitHub edition
 
 Four animals, six stages each. Stage 5 has two clips: site of action, then mechanism.
-Speak only the paragraphs. Headings, evidence keys and production notes are not narration.
-Suggested delivery: clear, measured scientific storytelling, approximately 140 words per minute.
-The supplied individual TXT files contain spoken text only.
+Speak only the paragraphs, or use the 28 individual TXT files. Suggested pace: 140 words per minute.
 
-1. BOTHROPS JARARACA (Brazilian pit viper)
+BOTHROPS JARARACA
 
-Stage 1: Brazilian pit viper
-This is Bothrops jararaca, the Brazilian pit viper. Its venom contains molecules that helped reveal a powerful way to lower blood pressure. The medical breakthrough began by separating this complex secretion into its components, then asking what each component did to the body.
+Stage 1: Jararaca, a Brazilian pit viper
+This is Bothrops jararaca, the jararaca, a Brazilian pit viper. Its venom contains molecules that helped reveal a powerful way to lower blood pressure. The medical breakthrough began by separating this complex secretion into its components, then asking what each component did to the body.
 
 Stage 2: Venom gland and fang
-Move toward the head, behind the eye. Here, a venom gland connects through a duct to a hollow fang in the upper jaw. When the snake bites, muscles compress the gland and drive venom through the fang. The photograph shows the anatomy; the animation traces the delivery pathway.
+Move toward the head, behind the eye. Here, the main venom gland connects through ducts and an accessory gland to a hollow fang in the upper jaw. During venom delivery, muscles compress the gland and drive venom along this pathway into the bite wound.
 
 Stage 3: A complex secretion
 A droplet of venom carries many different proteins and peptides. Some damage tissues or alter blood clotting. Others affect chemical signals that control circulation. Researchers separated these components and identified peptides that strengthened the action of bradykinin, a signal that can widen blood vessels.
 
 Stage 4: Teprotide
-One crucial lead was teprotide, a nine-residue peptide that reproduces a bradykinin-potentiating peptide from this venom. Its first residue is pyroglutamate, a chemically modified amino acid. Teprotide helped establish that inhibiting angiotensin-converting enzyme could lower blood pressure. The shape shown here is a computed conformation.
+One crucial lead was teprotide, a synthetic nine-residue copy of a bradykinin-potentiating peptide from this venom. Its first residue is pyroglutamate, a chemically modified amino acid. Teprotide helped establish that inhibiting angiotensin-converting enzyme could lower blood pressure. The shape shown here is a computed example of its conformation.
 
 Stage 5a: Blood-vessel lining
 Now follow the connection into the human circulation. We highlight the tiny blood vessels of the lungs, where angiotensin-converting enzyme is abundant on the vessel lining. The molecule entering this scene is captopril, the drug developed from the earlier peptide research. Its action extends beyond the lungs.
 
 Stage 5b: ACE inhibition
-Angiotensin-converting enzyme, usually called ACE, helps produce angiotensin two, a signal that constricts blood vessels. Captopril binds at the enzyme's active site and inhibits it. Less angiotensin two is produced, and bradykinin breakdown also decreases. These changes help reduce blood pressure.
+Angiotensin-converting enzyme, usually called ACE, converts angiotensin one into angiotensin two, a signal that constricts blood vessels. Captopril binds at the enzyme's active site and inhibits it. Less angiotensin two is produced, and bradykinin breakdown also decreases. These changes help reduce blood pressure.
 
 Stage 6: Captopril
-The result was captopril, a small molecule that can be taken by mouth. Teprotide supplied a biological lead; medicinal chemistry produced a different, practical drug. This pathway shows how studying a venom peptide can reveal a therapeutic target and guide the design of a medicine.
+The result was captopril, a small molecule that can be taken by mouth. Teprotide required injection and helped validate ACE inhibition as a treatment strategy. Medicinal chemistry then produced captopril, a distinct drug designed to inhibit the same enzyme. This pathway shows how venom research can guide the design of a medicine.
 
-
-2. HELODERMA SUSPECTUM (Gila monster)
+HELODERMA SUSPECTUM
 
 Stage 1: Gila monster
 Meet the Gila monster, Heloderma suspectum. This venomous lizard supplied an unexpected lead for treating type two diabetes. Researchers isolated a peptide called exendin four from its venom. That molecule could activate a human receptor involved in controlling blood glucose.
@@ -41,7 +39,7 @@ Stage 3: Finding an active component
 This secretion is a mixture of biologically active molecules. To understand it, researchers isolate individual components and test their effects. Exendin four emerged from that process. Its activity connected a lizard venom molecule to a signalling system already present in the human body.
 
 Stage 4: Exendin-4
-Exendin four contains thirty-nine amino acids. It activates the receptor for glucagon-like peptide one, or G L P one, a hormone involved in glucose control. The ribbon follows an experimentally measured peptide backbone. Its shape can change with its surroundings and when it binds a receptor.
+Exendin four contains thirty-nine amino acids. It activates the receptor for glucagon-like peptide one, or G L P one, a hormone involved in glucose control. This ribbon represents one structure inferred from nuclear magnetic resonance measurements in a laboratory solvent mixture. Its shape can change with its surroundings and when it binds a receptor.
 
 Stage 5a: Pancreatic beta cells
 Follow the peptide toward the pancreas. Inside this organ, small clusters of cells called islets contain the beta cells that release insulin. Their G L P one receptors provide one important site of action. The zoom locates the tissue before we examine the receptor at molecular scale.
@@ -50,34 +48,32 @@ Stage 5b: GLP-1 receptor activation
 Watch the peptide bind to the G L P one receptor on a beta cell. Receptor activation increases internal signals, including cyclic A M P, that strengthen insulin secretion when glucose is elevated. This glucose-dependent response helps bring blood sugar down after a meal.
 
 Stage 6: Exenatide
-The synthetic drug counterpart of exendin four is exenatide, marketed in the injection pen shown here as Byetta. It is used to improve glucose control in adults with type two diabetes. A molecule discovered in lizard venom became a manufactured peptide medicine.
+The synthetic drug counterpart of exendin four is exenatide. First approved in the United States in two thousand and five, it became a treatment for type two diabetes, alongside diet and exercise. The Byetta pen illustrates this medical history. A molecule discovered in lizard venom became a manufactured peptide medicine.
 
-
-3. CONUS MAGUS (Magician cone snail)
+CONUS MAGUS
 
 Stage 1: Magician cone snail
 This is Conus magus, the magician cone snail. Adults capture fish using a specialised tooth and a mixture of fast-acting venom molecules. One component, omega-conotoxin M V I I A, became the basis of a medicine for severe chronic pain.
 
 Stage 2: Venom duct and radular tooth
-Inside the snail, an elongated venom gland, often called the venom duct, produces its secretion. The delivery apparatus loads venom into a specialised radular tooth carried by the proboscis. The tissue image here comes from a juvenile; the schematic explains the route toward the tooth.
+Inside the snail, an elongated venom gland, often called the venom duct, produces its secretion. A muscular venom bulb helps propel venom through the delivery apparatus. A specialised radular tooth, held at the end of the extendable proboscis, delivers venom into the prey.
 
 Stage 3: A changing venom repertoire
 Cone-snail venom is a mixture of peptides with different molecular targets. In this species, its composition changes as young snails grow and switch from hunting worms to hunting fish. Separating and studying these components revealed molecules with powerful effects on nerve signalling.
 
 Stage 4: Omega-conotoxin MVIIA
-Omega-conotoxin M V I I A is a compact peptide containing twenty-five amino acids. Three disulfide bridges help hold its structure together. The model follows an experimentally measured conformation. A synthetic equivalent of this venom peptide is the drug ziconotide.
+Omega-conotoxin M V I I A is a compact peptide containing twenty-five amino acids. Three disulfide bridges help hold its structure together. This model represents one conformation inferred from nuclear magnetic resonance measurements. A synthetic equivalent of this venom peptide is the drug ziconotide.
 
 Stage 5a: Spinal dorsal horn
 The relevant destination is the dorsal horn, at the back of the spinal cord, where incoming sensory nerves relay pain signals. Ziconotide is delivered into the fluid surrounding the spinal cord. The zoom identifies its target region; the bloodstream is not its clinical delivery route.
 
 Stage 5b: Blocking calcium entry
-At a sensory nerve ending, ziconotide binds to an N-type calcium channel, called C A V two point two. Blocking calcium entry can reduce the release of chemical messengers that carry pain signals onward. The animation illustrates this process; the peptide blocks the channel from outside the cell.
+At a sensory nerve ending, ziconotide binds to the outer pore of an N-type calcium channel, called C A V two point two. Blocking calcium entry can reduce the release of chemical messengers that relay pain signals. This is the leading explanation for its pain-relieving action; the animation illustrates the molecular mechanism.
 
 Stage 6: Ziconotide
-Ziconotide is marketed as Prialt for selected patients with severe chronic pain. It requires specialist delivery into spinal fluid and careful monitoring. The therapeutic molecule reproduces a venom peptide, while its formulation and delivery system make that molecule usable as a medicine.
+Ziconotide is marketed as Prialt for adults with severe chronic pain who need intrathecal treatment and cannot tolerate, or obtain enough relief from, other treatments. It is infused into spinal fluid using a pump. Serious neurological and psychiatric effects require careful patient selection and monitoring.
 
-
-4. APIS MELLIFERA (Western honeybee)
+APIS MELLIFERA
 
 Stage 1: Western honeybee
 Meet Apis mellifera, the western honeybee. Its sting can trigger a dangerous allergic reaction in a sensitised person. Yet carefully prepared honeybee venom also has a clinical use: training the immune system to respond less severely to future stings.
@@ -89,30 +85,32 @@ Stage 3: Venom as a mixture
 Honeybee venom, also called apitoxin, contains several peptides and proteins. Its clinical allergy treatment uses a prepared venom extract containing multiple components. At this stage, we keep the mixture in view, then select one important allergen to examine at molecular scale.
 
 Stage 4: Api m 1
-The molecule shown is Api m one, a major honeybee venom allergen. It is phospholipase A two, an enzyme with one hundred and thirty-four amino acids in this structure. In sensitised people, antibodies can recognise it. Here it represents one component of the therapeutic venom mixture.
+The molecule shown is Api m one, a major honeybee venom allergen. It is phospholipase A two, an enzyme whose mature protein chain in this structure contains one hundred and thirty-four amino acids. In sensitised people, I G E antibodies can recognise it. Here it represents one component of the therapeutic venom mixture.
 
-Stage 5a: A distributed immune response
-Follow the allergen into the context of the human immune system. The spleen is highlighted as an example of lymphoid tissue. Immune tolerance involves cells and tissues throughout the body, so this image does not identify the spleen as a unique treatment target or injection site.
+Stage 5a: Injection site and immune response
+Honeybee venom immunotherapy is given as injections under the skin. Its effects involve immune cells across the body. We now move from the injection site to a schematic view of immune cells and their signals, where repeated treatment can help reduce allergic reactivity.
 
 Stage 5b: Reducing allergic reactivity
-With medically supervised venom immunotherapy, repeated controlled exposure can change the immune response. Protective antibodies, including I G G four, can intercept allergens. Changes in regulatory signals and immune-cell activity also contribute. The animation shows one part of this broader reduction in allergic reactivity.
+With medically supervised venom immunotherapy, repeated controlled exposure can change the immune response. Allergen-specific antibodies, including I G G four, can contribute to protection. Regulatory T cells, B cells and signals such as interleukin ten also contribute. The animation shows one part of this broader reduction in allergic reactivity.
 
 Stage 6: Honeybee venom immunotherapy
-The clinical product is honeybee venom allergenic extract, used by specialists for venom immunotherapy. It contains a mixture of venom components. The goal is to reduce the risk of serious reactions to future stings. Here, venom itself becomes the material for an allergy treatment.
-
+The clinical product is honeybee venom allergenic extract, used by specialists for venom immunotherapy. It contains a mixture of venom components. The goal is to reduce the risk of serious reactions to future stings. Treatment itself can cause allergic reactions, which is why specialist supervision matters.
 
 PRODUCTION NOTES (NOT SPOKEN)
 
-Stage 5a accompanies the body/organ view; stage 5b begins after the viewer enters the molecular mechanism.
+Stage 5a accompanies the body or tissue view; stage 5b begins after the viewer enters the molecular mechanism. The bee view uses an under-the-skin injection site followed by a schematic immune-cell view.
 These scripts are separate production assets. No narration player or generated speech has been added to the website.
-Reduce the existing music, animal calls and blood-flow effect under the voice. The blood-flow effect is ambience, not evidence of a drug delivery route.
+Reduce the existing music, animal calls and blood-flow effect under the voice. Use blood-flow ambience only where circulation is depicted. Blood-flow audio is disabled in the intrathecal, immune-cell and molecular scenes; it accompanies the pulmonary circulation view only.
 Latin-name pronunciations vary. Audition the chosen voice before rendering the full set.
 TTS reading guide: Gila = HEE-luh; ACE = ace; GLP-1 = G L P one; cAMP = cyclic A M P; MVIIA = M V I I A; CaV2.2 = C A V two point two; Api m 1 = AH-pee em one; IgG4 = I G G four.
 Keep spoken pauses between sentences. Do not feed filenames, headings, citations, source identifiers or these notes into TTS.
 Models and transitions are educational representations. Organ zooms do not show literal microscopic travel, and mechanism loops are not molecular-dynamics simulations.
 Teprotide is the discovery lead; captopril is a distinct non-peptide drug. Exenatide is the Gila-derived medicine featured here. Ziconotide requires intrathecal delivery. Api m 1 represents one allergen in a venom-extract treatment.
 
-SOURCES AND CLIP MAPPING (NOT SPOKEN)
+The Byetta photograph is a historical illustration. Its US approval was withdrawn on 3 September 2025; its EU authorization was withdrawn on 1 January 2026. US generic exenatide was approved on 19 November 2024. These are separate facts, not a worldwide availability claim.
+1UZF depicts testicular ACE, a C-domain model, with captopril and catalytic zinc. 1JRJ is an NMR model in 30% v/v trifluoroethanol. 1OMG has 25 residues plus a terminal-amide record, with disulfides 1–16, 8–20 and 15–25. 1POC provides the 134-residue Api m 1 chain; it contains calcium and a transition-state analogue, but no IgG4 antibody. Ancillary 1POC ligands are omitted from this protein-only rendering.
+
+SOURCES (NOT SPOKEN)
 
 [viper_discovery] Ferreira, 1965: bradykinin-potentiating factor in Bothrops jararaca venom
 https://pubmed.ncbi.nlm.nih.gov/14302350/
@@ -126,10 +124,10 @@ https://meshb.nlm.nih.gov/record/ui?ui=D013722
 [teprotide_graph] PubChem: teprotide, CID 443376
 https://pubchem.ncbi.nlm.nih.gov/compound/443376
 
-[viper_anatomy] Snake venom apparatus and secretion
+[viper_anatomy] The Primary Duct of Bothrops jararaca Glandular Apparatus Secretes Toxins
 https://www.mdpi.com/2072-6651/10/3/121
 
-[pulmonary_ace] Human pulmonary capillary endothelial ACE inhibition
+[pulmonary_ace] Human pulmonary endothelial ACE study using enalaprilat; supports localization, not a captopril-specific experiment
 https://pubmed.ncbi.nlm.nih.gov/11827728/
 
 [ace_structure] PDB 1UZF: ACE with captopril
@@ -141,7 +139,7 @@ https://pubmed.ncbi.nlm.nih.gov/20631207/
 [exendin_isolation] Eng et al., 1992: isolation of exendin-4 from Heloderma suspectum venom
 https://pubmed.ncbi.nlm.nih.gov/1313797/
 
-[byetta] DailyMed: Byetta prescribing information
+[byetta] Archived Byetta prescribing information; historical product
 https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f
 
 [exendin_structure] PDB 1JRJ: exendin-4 NMR structure
@@ -180,6 +178,29 @@ https://www.jci.org/articles/view/2250
 [blocking_antibodies] Human IgG4 to bee venom phospholipase A2
 https://pubmed.ncbi.nlm.nih.gov/8189069/
 
+[byetta_market_ema] EMA: Byetta EU marketing-authorisation withdrawal, effective 1 January 2026
+https://www.ema.europa.eu/en/medicines/human/EPAR/byetta
+
+[generic_exenatide_fda] FDA: 2024 first generic drug approvals; exenatide, ANDA 206697, 19 November 2024
+https://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/2024-first-generic-drug-approvals
+
+[tace_cdomain] Structure of testis ACE glycosylation mutants and evidence for conserved domain movement
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1892614/
+
+[immune_b_cells] van de Veen et al., 2013: IL-10-producing regulatory B cells and IgG4
+https://pubmed.ncbi.nlm.nih.gov/23453135/
+
+[immune_functional] 2009 primary study: inhibitory activity for allergen-IgE binding during bee venom immunotherapy
+https://pubmed.ncbi.nlm.nih.gov/19538349/
+
+[exenatide_label] Current US generic exenatide label (Amneal), updated May 2026
+https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e6cb5c8f-e97f-4a6a-95a4-939fd2393949
+
+[byetta_us_withdrawal] FDA: NDA 021773 (Byetta) withdrawal effective 3 September 2025
+https://www.govinfo.gov/content/pkg/FR-2025-08-04/pdf/2025-14683.pdf
+
+CLIP MAPPING (NOT SPOKEN)
+
 01_jararaca_01_fauna.txt | viper_discovery, captopril_design
 01_jararaca_02_apparatus.txt | viper_anatomy
 01_jararaca_03_venom.txt | viper_discovery, captopril_design
@@ -187,13 +208,13 @@ https://pubmed.ncbi.nlm.nih.gov/8189069/
 01_jararaca_05a_organ.txt | pulmonary_ace, captopril_design
 01_jararaca_05b_mechanism.txt | captopril_design, ace_structure
 01_jararaca_06_drug.txt | captopril_design
-02_gila_01_fauna.txt | exendin_isolation, byetta
+02_gila_01_fauna.txt | exendin_isolation, exenatide_label
 02_gila_02_apparatus.txt | gila_anatomy
-02_gila_03_venom.txt | exendin_isolation, byetta
-02_gila_04_peptide.txt | exendin_structure, byetta
-02_gila_05a_organ.txt | byetta
-02_gila_05b_mechanism.txt | byetta, glp1r_structure
-02_gila_06_drug.txt | byetta, exendin_isolation
+02_gila_03_venom.txt | exendin_isolation, exenatide_label
+02_gila_04_peptide.txt | exendin_structure, exenatide_label
+02_gila_05a_organ.txt | exenatide_label
+02_gila_05b_mechanism.txt | exenatide_label, glp1r_structure
+02_gila_06_drug.txt | exenatide_label, exendin_isolation, byetta_market_ema, generic_exenatide_fda, byetta_us_withdrawal
 03_cone_01_fauna.txt | cone_anatomy, prialt
 03_cone_02_apparatus.txt | cone_anatomy
 03_cone_03_venom.txt | cone_anatomy
@@ -205,6 +226,6 @@ https://pubmed.ncbi.nlm.nih.gov/8189069/
 04_bee_02_apparatus.txt | bee_anatomy
 04_bee_03_venom.txt | bee_extract, api_m1
 04_bee_04_peptide.txt | api_m1, api_m1_structure, blocking_antibodies
-04_bee_05a_organ.txt | immune_tolerance
-04_bee_05b_mechanism.txt | immune_tolerance, blocking_antibodies
+04_bee_05a_organ.txt | bee_extract, immune_tolerance, immune_b_cells
+04_bee_05b_mechanism.txt | immune_tolerance, blocking_antibodies, immune_b_cells, immune_functional
 04_bee_06_drug.txt | bee_extract
