@@ -1,0 +1,201 @@
+{
+  "jararaca-gland": {
+    "path": "media/anatomy/jararaca-gland.jpg",
+    "sourceUrl": "https://www.nature.com/articles/nprot.2006.423/figures/1",
+    "imageUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnprot.2006.423/MediaObjects/41596_2006_Article_BFnprot2006423_Fig1_HTML.jpg",
+    "description": "Dissection of venom gland from Bothrops jararaca, Figure 1",
+    "license": "Springer Nature figure; copyright retained, no open reuse license identified",
+    "bytes": 59865,
+    "dimensions": [
+      655,
+      496
+    ]
+  },
+  "cone-gland": {
+    "path": "media/anatomy/cone-gland.png",
+    "sourceUrl": "https://www.nature.com/articles/s41467-023-38924-5/figures/3",
+    "imageUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-38924-5/MediaObjects/41467_2023_38924_Fig3_HTML.png",
+    "description": "Real microscopy and reconstructed venom apparatus, juvenile Conus magus; Figure 3",
+    "license": "CC BY 4.0, Rogalski et al. 2023",
+    "bytes": 1855891,
+    "dimensions": [
+      1500,
+      895
+    ],
+    "displayNote": "The full figure concerns juveniles. Real histological panels C/D/E occupy bottom half; label juvenile if displayed."
+  },
+  "cone-delivery": {
+    "path": "media/anatomy/cone-delivery.png",
+    "sourceUrl": "https://www.nature.com/articles/s41467-023-38924-5/figures/4",
+    "imageUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-38924-5/MediaObjects/41467_2023_38924_Fig4_HTML.png",
+    "description": "UNUSED: Figure4 schematic only; not a real photo. Do not use for requested real asset presentation.",
+    "license": "CC BY 4.0, Rogalski et al. 2023",
+    "bytes": 313304,
+    "useInSite": false,
+    "dimensions": [
+      1430,
+      633
+    ]
+  },
+  "byetta": {
+    "path": "media/drugs/byetta.jpg",
+    "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f",
+    "imageUrl": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=image-01.jpg&setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f&type=img",
+    "description": "Official BYETTA manufacturer carton label artwork, 5 mcg pen (includes actual pen photograph)",
+    "license": "Manufacturer label artwork via NLM DailyMed; trademarks remain with owners",
+    "bytes": 178740,
+    "dimensions": [
+      1142,
+      893
+    ]
+  },
+  "prialt": {
+    "path": "media/drugs/prialt.jpg",
+    "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b025d8ed-937d-4597-9ad1-0b2f6e0ee5b1",
+    "imageUrl": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=pri02-0000-05.jpg&setid=b025d8ed-937d-4597-9ad1-0b2f6e0ee5b1&type=img",
+    "description": "Official PRIALT carton label artwork, 1 mL",
+    "license": "Manufacturer label artwork via NLM DailyMed; trademarks remain with owners",
+    "bytes": 101872,
+    "dimensions": [
+      724,
+      738
+    ]
+  },
+  "aggrastat": {
+    "path": "media/drugs/aggrastat.jpg",
+    "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fe0ced75-ccbf-4d2e-bd0d-b57e60ab913f",
+    "imageUrl": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=pack-3-100mL.jpg&setid=fe0ced75-ccbf-4d2e-bd0d-b57e60ab913f&type=img",
+    "description": "Official AGGRASTAT 100 mL bag label",
+    "license": "Manufacturer label artwork via NLM DailyMed; trademarks remain with owners",
+    "bytes": 114808,
+    "dimensions": [
+      498,
+      925
+    ]
+  },
+  "bee-extract": {
+    "path": "media/drugs/bee-extract.jpg",
+    "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9aeb05aa-6de7-433a-9476-180fa8cba467",
+    "imageUrl": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=standardized-venoms---multidose-2.jpg&id=944370",
+    "description": "Official Honey Bee Venom (Apis mellifera) container label, Jubilant HollisterStier",
+    "license": "Manufacturer label artwork via NLM DailyMed; trademarks remain with owners",
+    "bytes": 87703,
+    "dimensions": [
+      797,
+      229
+    ]
+  },
+  "captopril": {
+    "path": "media/drugs/captopril.png",
+    "sourceUrl": "https://vastoversdrugsandalliedproducts.com/product/captopril-25-mg-x-56-tablets/",
+    "imageUrl": "https://vastoversdrugsandalliedproducts.com/wp-content/uploads/2024/09/PhotoRoom-20240808_103351_33.png",
+    "description": "Real Crescent Captopril 25mg 56-tablet carton photograph; retailer product image",
+    "license": "Retailer product photograph; no open reuse license identified",
+    "bytes": 159653,
+    "dimensions": [
+      1080,
+      1080
+    ]
+  },
+  "echis-delivery": {
+    "path": "media/anatomy/echis-delivery.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venom_extraction.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Venom_extraction.jpg",
+    "description": "Echis carinatus venom extraction, Kalyan Varma",
+    "license": "CC BY-SA 4.0 / GFDL, Kalyan Varma",
+    "bytes": 160806,
+    "dimensions": [
+      800,
+      532
+    ],
+    "displayNote": "Real extraction photo. Can use distinct focus on fangs and collected venom. Never label as internal gland image."
+  },
+  "bee-gland": {
+    "path": "media/anatomy/bee-gland.jpg",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10359947/",
+    "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/581b/10359947/8b6153ab6d30/gr11.jpg",
+    "description": "Figure 11: microCT of worker Apis mellifera venom sac and Dufour gland",
+    "license": "CC BY-NC-ND 4.0, Ramirez-Esquivel and Ravi 2023; noncommercial license, commercial display rights not cleared",
+    "bytes": 461979,
+    "dimensions": [
+      748,
+      754
+    ],
+    "displayNote": "Published microCT reconstruction, not artist anatomy. Full image has real scan slices at bottom. License is noncommercial/no derivatives; private preview asset only until commercial reuse rights are resolved."
+  },
+  "gila-gland": {
+    "path": "media/anatomy/gila-gland.jpg",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20631207/",
+    "imageUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S1535947620344972-gr14_lrg.jpg",
+    "description": "Figure 14 MRI; ONLY PANEL B is Heloderma suspectum. A is H. horridum, C is G. infernalis, D is L. borneensis. Published false-color overlays on real MRI.",
+    "license": "Publisher or archive retained copyright; no open reuse license verified",
+    "bytes": 157300,
+    "dimensions": [
+      568,
+      1280
+    ],
+    "displayNote": "CSS crop panel B only: x=0,y=290,width=568,height=310 in original 568\u00d71280 image; retain label as MRI."
+  },
+  "jararaca-delivery": {
+    "path": "media/anatomy/jararaca-delivery.jpg",
+    "sourceUrl": "https://repositorioacervohistorico.butantan.gov.br/index.php/extracao-de-veneno-realizada-com-as-maos-comprimindo-as-duas-glandulas-da-parte-de-tras-da-cabeca-da-serpente-e-escorrendo-goticulas-de-veneno-das-presas-com-auxilio-de-pinca-bothrops-jararaca-jararaca-serpente-peconhenta-2",
+    "imageUrl": "https://repositorioacervohistorico.butantan.gov.br/uploads/r/centro-de-memoria-do-instituto-butantan-2/d/f/8/df8c5734f554d3ad699d722637c8e6d5da319fd646db609ee87ccf01e9f02b43/IB_ICO_003517_141.jpg",
+    "description": "Real Bothrops jararaca venom droplets at fang tips during collection. Instituto Butantan archive IB_ICO_003517.",
+    "license": "Instituto Butantan archive; no explicit open reuse license identified",
+    "bytes": 23115,
+    "dimensions": [
+      480,
+      320
+    ]
+  },
+  "gila-venom": {
+    "path": "media/anatomy/gila-venom.jpg",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4510068/",
+    "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fb26/4510068/ac5d3e470db8/gr2.jpg",
+    "description": "Real SDS-PAGE of collected Gila monster venom, Figure 2; lanes 2 and 3 are H. suspectum suspectum and H. suspectum cinctum. Must label as venom proteins, not a droplet.",
+    "license": "CC BY 4.0, Sanggaard et al. 2015",
+    "bytes": 126241,
+    "dimensions": [
+      632,
+      1141
+    ]
+  },
+  "bee-collection": {
+    "path": "media/anatomy/bee-collection.png",
+    "sourceUrl": "https://www.mdpi.com/2079-6382/12/4/779",
+    "imageUrl": "https://mdpi-res.com/antibiotics/antibiotics-12-00779/article_deploy/html/images/antibiotics-12-00779-g004.png",
+    "description": "Figure 4: collection and storage of Apis mellifera venom; A collection box, B electrostimulation, C dry venom recovered, D stored venom.",
+    "license": "CC BY 4.0, P\u00e9rez-Delgado et al. 2023",
+    "bytes": 1727968,
+    "dimensions": [
+      1816,
+      2366
+    ],
+    "displayNote": "Panel D shows the stored collected sample; panels A\u2013C show real collection process."
+  },
+  "cone-venom": {
+    "path": "media/anatomy/cone-venom.png",
+    "sourceUrl": "https://www.nature.com/articles/s41467-023-38924-5/figures/5",
+    "imageUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-38924-5/MediaObjects/41467_2023_38924_Fig5_HTML.png",
+    "description": "Actual published Conus magus venom proteomic and transcriptomic data, juvenile and adult. Must label as venom profile, not secretion photo.",
+    "license": "CC BY 4.0, Rogalski et al. 2023",
+    "bytes": 268398,
+    "dimensions": [
+      1746,
+      1548
+    ],
+    "displayNote": "Bottom red trace is adult milked predatory venom (MPV), shown as measured mass spectrum. Use Venom profile label."
+  },
+  "byetta-pen": {
+    "path": "media/drugs/byetta-pen.jpg",
+    "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f",
+    "imageUrl": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=image-12.jpg&setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f&type=img",
+    "description": "Real BYETTA 10 mcg exenatide prefilled pen product photograph in official label",
+    "license": "Manufacturer photograph via DailyMed; trademarks remain with owners",
+    "bytes": 8443,
+    "dimensions": [
+      420,
+      158
+    ]
+  }
+}

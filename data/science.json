@@ -1,0 +1,251 @@
+{
+  "jararaca": {
+    "commonName": "Brazilian pit viper",
+    "species": "Bothrops jararaca",
+    "molecule": "teprotide",
+    "target": "ACE",
+    "drug": "Captopril",
+    "drugType": "Venom-inspired small molecule",
+    "indication": "Hypertension",
+    "sequence": "pGlu-WPRPQIPP",
+    "residueCount": 9,
+    "moleculeNote": "Teprotide (SQ 20,881) reproduces the venom peptide BPP-9a. Its first residue is L-pyroglutamate, not ordinary glutamate.",
+    "mechanism": "ACE inhibition reduces conversion of angiotensin I to angiotensin II and also slows bradykinin breakdown.",
+    "mechanismShort": "Less angiotensin II. Less vasoconstriction.",
+    "bridge": "Teprotide established that ACE inhibition could lower blood pressure. Medicinal chemistry produced an orally active, non-peptide inhibitor: captopril.",
+    "drugNote": "Captopril is synthesized. It is neither extracted venom nor the teprotide peptide.",
+    "anatomy": "Paired venom glands behind the eyes connect through ducts to hollow, hinged upper fangs.",
+    "timeline": [
+      {
+        "year": 1965,
+        "label": "Sérgio Ferreira reports bradykinin-potentiating activity in venom."
+      },
+      {
+        "year": 1977,
+        "label": "Ondetti, Rubin and Cushman report designed, orally active ACE inhibitors."
+      },
+      {
+        "year": 1981,
+        "label": "Captopril receives US approval for hypertension."
+      }
+    ],
+    "structureNote": "Illustrative computed conformer from the exact stereochemical graph of PubChem CID 443376. Not an experimentally determined fold and not a binding pose. Lowest MMFF94 energy among 12 generated conformers; seed 20881. N-terminal pyroglutamate is explicitly modeled. Target view: 1UZF is a crystal structure of human testicular ACE with captopril, not a teprotide–ACE complex.",
+    "sources": [
+      {
+        "label": "Ferreira · venom discovery, 1965",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14302350/"
+      },
+      {
+        "label": "Teprotide identity and sequence · NLM",
+        "url": "https://meshb.nlm.nih.gov/record/ui?ui=D013722"
+      },
+      {
+        "label": "Teprotide molecular graph · PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443376"
+      },
+      {
+        "label": "Ondetti, Rubin & Cushman · drug design, 1977",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/191908/"
+      },
+      {
+        "label": "Cushman & Ondetti · development history",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6176105/"
+      },
+      {
+        "label": "Captopril approval · FDA Drug Bulletin, 1981",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7018978/"
+      },
+      {
+        "label": "ACE + captopril crystal structure · PDB 1UZF",
+        "url": "https://www.rcsb.org/structure/1UZF"
+      }
+    ]
+  },
+  "gila": {
+    "commonName": "Gila monster",
+    "species": "Heloderma suspectum",
+    "molecule": "exendin4",
+    "target": "GLP-1 receptor",
+    "drug": "Exenatide",
+    "brand": "Byetta",
+    "drugType": "Synthetic peptide",
+    "indication": "Type 2 diabetes",
+    "sequence": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS",
+    "residueCount": 39,
+    "modifications": "C-terminal amide",
+    "moleculeNote": "Exendin-4 is a 39-residue peptide isolated from Gila monster venom. Exenatide is its synthetic drug counterpart.",
+    "mechanism": "GLP-1 receptor activation increases glucose-dependent insulin secretion, reduces inappropriately elevated glucagon and slows gastric emptying.",
+    "mechanismShort": "Activate GLP-1R. Support glucose-dependent insulin release.",
+    "bridge": "Isolation of exendin-4 led to synthetic exenatide, formulated for subcutaneous delivery.",
+    "drugNote": "Ozempic (semaglutide) is a modified human GLP-1 analogue, not an exendin-4 derivative.",
+    "anatomy": "Venom is made in glands of the lower jaw and reaches grooved lower teeth during a bite.",
+    "timeline": [
+      {
+        "year": 1992,
+        "label": "John Eng and colleagues report isolation of exendin-4."
+      },
+      {
+        "year": 2005,
+        "label": "Exenatide receives US approval."
+      }
+    ],
+    "structureNote": "First deposited NMR conformer, measured in 30% trifluoroethanol. The conformation is condition-dependent and is not a receptor-bound pose. The deposited 1JRJ model includes a terminal OXT atom; mature exendin-4/exenatide is C-terminally amidated. Treat this as an experimental backbone reference, not an atom-for-atom drug formulation.",
+    "sources": [
+      {
+        "label": "Eng and colleagues · isolation, 1992",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1313797/"
+      },
+      {
+        "label": "Byetta · prescribing information and sequence",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f"
+      },
+      {
+        "label": "Exendin-4 NMR structure · PDB 1JRJ",
+        "url": "https://www.rcsb.org/structure/1JRJ"
+      },
+      {
+        "label": "Semaglutide is a human GLP-1 analogue · FDA label",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/209637s004lbl.pdf"
+      },
+      {
+        "label": "Gila venom anatomy · original research",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37181791/"
+      }
+    ]
+  },
+  "cone": {
+    "commonName": "Magician cone snail",
+    "species": "Conus magus",
+    "molecule": "mviia",
+    "target": "CaV2.2 calcium channel",
+    "drug": "Ziconotide",
+    "brand": "Prialt",
+    "drugType": "Synthetic peptide",
+    "indication": "Severe chronic pain",
+    "sequence": "CKGKGAKCSRLMYDCCTGSCRSGKC",
+    "residueCount": 25,
+    "modifications": "C-terminal amide; three disulfides",
+    "moleculeNote": "ω-conotoxin MVIIA is a disulfide-rich venom peptide. Ziconotide is its synthetic equivalent.",
+    "mechanism": "Blockade of N-type (CaV2.2) calcium channels in spinal pain pathways reduces neurotransmitter release.",
+    "mechanismShort": "Block calcium entry. Reduce pain-signal transmission.",
+    "bridge": "Chemical synthesis reproduces the peptide and its three disulfide bonds. Delivery into spinal fluid brings the drug to its site of action.",
+    "drugNote": "Prialt is administered by intrathecal infusion for severe chronic pain in selected patients. It is not an oral analgesic.",
+    "anatomy": "A venom duct connects to a proboscis that deploys a hollow, harpoon-like radular tooth.",
+    "timeline": [
+      {
+        "year": 2004,
+        "label": "Ziconotide receives US approval."
+      }
+    ],
+    "structureNote": "First deposited NMR conformer. 25 amino acids; the terminal NH2 chemical group is not a 26th amino acid. Three disulfide bridges.",
+    "sources": [
+      {
+        "label": "Prialt · prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b025d8ed-937d-4597-9ad1-0b2f6e0ee5b1"
+      },
+      {
+        "label": "MVIIA NMR structure · PDB 1OMG",
+        "url": "https://www.rcsb.org/structure/1OMG"
+      },
+      {
+        "label": "Conus magus venom apparatus · original research",
+        "url": "https://www.nature.com/articles/s41467-023-38924-5"
+      }
+    ]
+  },
+  "echis": {
+    "commonName": "Saw-scaled viper",
+    "species": "Echis carinatus",
+    "molecule": "echistatin",
+    "target": "Platelet αIIbβ3 integrin",
+    "drug": "Tirofiban",
+    "brand": "Aggrastat",
+    "drugType": "Venom-inspired small molecule",
+    "indication": "Acute coronary syndrome",
+    "sequence": "ECESGPCCRNCKFLKEGTICKRARGDDMDDYCNGKTCDCPRNPHKGPAT",
+    "residueCount": 49,
+    "modifications": "Four disulfides; RGD motif at residues 24–26",
+    "moleculeNote": "Echistatin is a 49-residue disintegrin with an exposed RGD recognition motif.",
+    "mechanism": "Tirofiban prevents fibrinogen binding to platelet GP IIb/IIIa (αIIbβ3), inhibiting platelet aggregation.",
+    "mechanismShort": "Block fibrinogen bridges. Limit platelet aggregation.",
+    "bridge": "The integrin-binding motif of venom disintegrins informed small-molecule mimetics, including tirofiban.",
+    "drugNote": "Tirofiban is a synthesized non-peptide medicine, not isolated echistatin.",
+    "anatomy": "Venom glands supply hollow, hinged upper fangs through ducts.",
+    "timeline": [
+      {
+        "year": 1988,
+        "label": "Merck researchers report purified echistatin and its platelet-inhibitory activity."
+      },
+      {
+        "year": 1992,
+        "label": "Merck researchers report non-peptide fibrinogen-receptor antagonists."
+      }
+    ],
+    "structureNote": "First deposited NMR conformer; mature 49-residue echistatin. Four disulfide bridges; integrin-recognition RGD motif at positions 24–26. No expression-tag residues.",
+    "sources": [
+      {
+        "label": "Echistatin discovery, 1988",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3198653/"
+      },
+      {
+        "label": "Non-peptide antagonist design, 1992",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1469694/"
+      },
+      {
+        "label": "Aggrastat · prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fe0ced75-ccbf-4d2e-bd0d-b57e60ab913f"
+      },
+      {
+        "label": "Echistatin NMR structure · PDB 1RO3",
+        "url": "https://www.rcsb.org/structure/1RO3"
+      }
+    ]
+  },
+  "bee": {
+    "commonName": "Western honeybee",
+    "species": "Apis mellifera",
+    "molecule": "apiM1",
+    "target": "Venom-specific immune response",
+    "drug": "Honeybee venom allergenic extract",
+    "brand": "Venom immunotherapy",
+    "drugType": "Standardized venom mixture",
+    "indication": "Honeybee venom allergy",
+    "sequence": "IIYPGTLWCGHGNKSSGPNELGRFKHTDACCRTHDMCPDVMSAGESKHGLTNTASHTRLSCDCDDKFYDCLKNSADTISSYFVGKMYFNLIDTKCYKLEHPVTGCGERTEGRCLHYTVDKSKPKVYQWFDLRKY",
+    "residueCount": 134,
+    "modifications": "Representative allergen Api m 1; not the entire medicine",
+    "moleculeNote": "Api m 1 (phospholipase A₂) is one important venom allergen. Apitoxin means bee venom, a mixture; it is not a single peptide.",
+    "mechanism": "Repeated, medically supervised venom-allergen exposure can reduce the severity of allergic reactions to future stings; multiple immune mechanisms contribute.",
+    "mechanismShort": "Build immune tolerance. Reduce reactions to future stings.",
+    "bridge": "A standardized venom extract is formulated for specialist-supervised allergy immunotherapy.",
+    "drugNote": "The clinical product contains a venom mixture. Showing one allergen does not mean that isolated Api m 1 is the marketed treatment.",
+    "anatomy": "Venom glands supply a reservoir linked to the stinger at the tip of a female worker’s abdomen.",
+    "timeline": [],
+    "structureNote": "Honeybee venom phospholipase A2 (Api m 1), 134 residues, shown as one representative allergen. Clinical venom immunotherapy uses a standardized mixture, not this isolated molecule. Bound analogue, calcium, waters and carbohydrate omitted.",
+    "sources": [
+      {
+        "label": "Honeybee venom · licensed product labeling",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9aeb05aa-6de7-433a-9476-180fa8cba467"
+      },
+      {
+        "label": "Api m 1 allergen nomenclature · WHO/IUIS",
+        "url": "https://allergen.org/viewallergen.php?aid=65"
+      },
+      {
+        "label": "Api m 1 crystal structure · PDB 1POC",
+        "url": "https://www.rcsb.org/structure/1POC"
+      },
+      {
+        "label": "Honeybee stinger anatomy · micro-CT study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37485367/"
+      },
+      {
+        "label": "Human IgG4 to bee venom phospholipase A2 · original research",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8189069/"
+      },
+      {
+        "label": "IL-10 in bee venom immunotherapy · original research",
+        "url": "https://www.jci.org/articles/view/2250"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "cav22": {
+    "pdb": "7MIX",
+    "units": "angstrom",
+    "coordinateFrame": "Original deposited 7MIX Cartesian coordinates; identical frame to targets.json cav22",
+    "receptorChain": "A",
+    "ligandChain": "B",
+    "filterCenter": [
+      155.763,
+      153.612375,
+      155.9675
+    ],
+    "gateCenter": [
+      135.28775,
+      163.62875,
+      134.71975
+    ],
+    "bindingCenter": [
+      162.553222,
+      150.172364,
+      169.379778
+    ],
+    "experimentalFilterCalcium": [
+      154.937,
+      153.878,
+      155.96
+    ],
+    "axis": {
+      "origin": [
+        155.763,
+        153.612375,
+        155.9675
+      ],
+      "outward": [
+        0.657072,
+        -0.321436,
+        0.681862
+      ],
+      "inward": [
+        -0.657072,
+        0.321436,
+        -0.681862
+      ],
+      "extracellularStart": [
+        178.103438,
+        142.68356,
+        179.150809
+      ],
+      "intracellularEnd": [
+        127.402889,
+        167.485979,
+        126.537406
+      ],
+      "blockadeStop": [
+        171.774896,
+        145.779447,
+        172.583501
+      ],
+      "blockadeStopDistanceFromFilter": 24.368567
+    },
+    "basis": {
+      "filter": "Centroid of OE1/OE2 atoms of chain A E314, E663, E1365, E1655",
+      "gate": "Centroid of chain A C-alpha atoms A360, A713, I1417, F1711, the four S6 residues surrounding W768 at the bottom of the hydrophobic gate",
+      "axis": "Straight line from gate landmark to filter landmark, pointing extracellularly",
+      "blockadeStop": "Outermost chain B atom projected on the illustrative axis within a 4-Angstrom cylinder, plus 2-Angstrom visual clearance"
+    },
+    "mechanism": "Ziconotide blocks the extracellular CaV2.2 pore; do not animate it as closing the intracellular gate.",
+    "boundStructureHasClosedIntracellularGate": true,
+    "flowLabel": "Schematic Ca2+ influx",
+    "limits": [
+      "This axis is derived for illustration, not an experimentally measured ion trajectory or a HOLE/MD pore calculation.",
+      "7MIX has a closed intracellular gate; removing the displayed toxin does not make this coordinate model an experimentally open channel.",
+      "Flow in an unblocked comparison is a functional schematic; ion positions, rate, and stopping point are illustrative.",
+      "The PDB z axis is not the membrane normal. Transform these landmarks with exactly the same translation, scale, and rotation as both receptor and ligand.",
+      "These landmarks do not establish membrane boundaries or a quantitative pore radius."
+    ],
+    "sources": [
+      {
+        "url": "https://www.rcsb.org/structure/7MIX",
+        "supports": "Experimental receptor, toxin, and filter-calcium coordinates"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-021-03699-6",
+        "supports": "Extracellular peptide pore blockade; closed intracellular gate; S6 gate landmarks in Figure 2e"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7498737/",
+        "supports": "EEEE selectivity-filter residue numbering, independently checked as GLU in 7MIX"
+      }
+    ]
+  }
+}

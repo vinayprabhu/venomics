@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "models": {
+    "isnet": {
+      "name": "ISNet general use",
+      "architectureSource": "https://github.com/xuebinqin/DIS",
+      "weightsSource": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx",
+      "repositoryLicense": "Apache-2.0",
+      "inference": "ONNX Runtime CPU",
+      "weightsDistributed": false
+    },
+    "u2net": {
+      "name": "U2Net",
+      "architectureSource": "https://github.com/xuebinqin/U-2-Net",
+      "weightsSource": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx",
+      "repositoryLicense": "Apache-2.0",
+      "inference": "ONNX Runtime CPU",
+      "weightsDistributed": false
+    },
+    "depth": {
+      "name": "Depth Anything V2 Small",
+      "architectureSource": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "weightsSource": "https://huggingface.co/onnx-community/depth-anything-v2-small",
+      "license": "Apache-2.0",
+      "inference": "ONNX Runtime CPU",
+      "meaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction.",
+      "weightsDistributed": false
+    }
+  },
+  "assets": {
+    "jararaca": {
+      "path": "media/cutouts/jararaca.png",
+      "webpPath": "media/cutouts/jararaca.webp",
+      "alphaPath": "media/cutouts/jararaca-mask.png",
+      "sourcePath": "media/fauna/jararaca.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bothrops_jararaca_-_Jo%C3%A3o_D%27Andretta_-_362746720.jpeg",
+      "author": "João D'Andretta",
+      "sourceLicense": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "dimensions": [
+        1215,
+        562
+      ],
+      "method": "ISNet general use, ONNX",
+      "processing": {
+        "input": "media/fauna/jararaca.jpg",
+        "sourceCrop": null,
+        "alphaCrop": [
+          629,
+          639,
+          1844,
+          1201
+        ],
+        "outputSize": [
+          1215,
+          562
+        ],
+        "model": "ISNet general use, ONNX",
+        "seconds": 3.33
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "Photographic cutout. No hidden anatomy or back side is reconstructed.",
+      "sourceSha256": "d677d0a7f7c56d9d90ae793a3c85f0816515579688a14d85df429cd5be862ca2",
+      "pngBytes": 1352669,
+      "webpBytes": 755498,
+      "depthPath": "media/cutouts/jararaca-depth.png",
+      "depthModel": "depth",
+      "depthMeaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction."
+    },
+    "gila": {
+      "path": "media/cutouts/gila.png",
+      "webpPath": "media/cutouts/gila.webp",
+      "alphaPath": "media/cutouts/gila-mask.png",
+      "sourcePath": "media/fauna/gila.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AZ_Gila_Monster_01.jpg",
+      "author": "Josh Olander",
+      "sourceLicense": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "dimensions": [
+        907,
+        568
+      ],
+      "method": "ISNet + U2Net + seeded GrabCut",
+      "processing": {
+        "input": "media/fauna/gila.jpg",
+        "sourceCrop": null,
+        "alphaCrop": [
+          300,
+          107,
+          1207,
+          675
+        ],
+        "outputSize": [
+          907,
+          568
+        ],
+        "model": "ISNet + U2Net + seeded GrabCut",
+        "seconds": 3.73
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "Model mask refined with source-pixel foreground seeds and GrabCut to retain tail and feet. Small gravel fringes may remain at ground-contact edges.",
+      "sourceSha256": "f61bb12a1c8d860595760ed1b9c83d13c6e2234e3bcc5ad4c0cf8ad56a362b33",
+      "pngBytes": 1376939,
+      "webpBytes": 406578,
+      "depthPath": "media/cutouts/gila-depth.png",
+      "depthModel": "depth",
+      "depthMeaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction."
+    },
+    "cone": {
+      "path": "media/cutouts/cone.png",
+      "webpPath": "media/cutouts/cone.webp",
+      "alphaPath": "media/cutouts/cone-mask.png",
+      "sourcePath": "media/fauna/cone.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conus_magus_001.jpg",
+      "author": "Richard Parker",
+      "sourceLicense": "CC BY 2.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "dimensions": [
+        545,
+        1137
+      ],
+      "method": "ISNet general use, ONNX",
+      "processing": {
+        "input": "media/fauna/cone.jpg",
+        "sourceCrop": [
+          0,
+          0,
+          690,
+          1278
+        ],
+        "alphaCrop": [
+          106,
+          33,
+          651,
+          1170
+        ],
+        "outputSize": [
+          545,
+          1137
+        ],
+        "model": "ISNet general use, ONNX",
+        "seconds": 2.67
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "Only the left view of the photographed Conus magus shell is retained. This is a shell specimen, not a living snail.",
+      "sourceSha256": "234147066353966b67d7351437c04d5b3630467666c8534b3afe83c726d82e80",
+      "pngBytes": 772611,
+      "webpBytes": 484002,
+      "depthPath": "media/cutouts/cone-depth.png",
+      "depthModel": "depth",
+      "depthMeaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction."
+    },
+    "echis": {
+      "path": "media/cutouts/echis.png",
+      "webpPath": "media/cutouts/echis.webp",
+      "alphaPath": "media/cutouts/echis-mask.png",
+      "sourcePath": "media/fauna/echis.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Echis_carinatus_140346811.jpg",
+      "author": "Sai Shailesh",
+      "sourceLicense": "CC0",
+      "sourceLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "dimensions": [
+        627,
+        676
+      ],
+      "method": "U2Net",
+      "processing": {
+        "input": "media/fauna/echis.jpg",
+        "sourceCrop": null,
+        "alphaCrop": [
+          966,
+          308,
+          1593,
+          984
+        ],
+        "outputSize": [
+          627,
+          676
+        ],
+        "model": "U2Net",
+        "seconds": 6.67
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "The source animal is occluded by leaves; visible crossing leaves remain. No anatomy hidden by foliage was fabricated. Suitable as a photograph relief, not a clean complete anatomical model.",
+      "sourceSha256": "4193c3b73d423289a79288d001324716c7fbb4a2e98eeb4f44d8d064a05520f3",
+      "pngBytes": 800879,
+      "webpBytes": 327382,
+      "depthPath": "media/cutouts/echis-depth.png",
+      "depthModel": "depth",
+      "depthMeaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction."
+    },
+    "bee": {
+      "path": "media/cutouts/bee.png",
+      "webpPath": "media/cutouts/bee.webp",
+      "alphaPath": "media/cutouts/bee-mask.png",
+      "sourcePath": "media/fauna/bee.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abeja_(Apis_mellifera),_Hartelholz,_M%C3%BAnich,_Alemania,_2020-06-26,_DD_13-37_FS.jpg",
+      "author": "Diego Delso",
+      "sourceLicense": "CC BY-SA 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "dimensions": [
+        1600,
+        1504
+      ],
+      "method": "ISNet general use, ONNX",
+      "processing": {
+        "input": "media/fauna/bee.jpg",
+        "sourceCrop": null,
+        "alphaCrop": [
+          502,
+          0,
+          5746,
+          4928
+        ],
+        "outputSize": [
+          1600,
+          1504
+        ],
+        "model": "ISNet general use, ONNX",
+        "seconds": 15.83
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "Source is a head macro; the body extends outside the original photograph. Cutout does not fabricate a complete bee.",
+      "sourceSha256": "d35df1462ef1617bab08acdd0570472ab4f7f1a4ffd69e9ac9bd4b5dd9f3e5f0",
+      "pngBytes": 4156170,
+      "webpBytes": 3205938,
+      "depthPath": "media/cutouts/bee-depth.png",
+      "depthModel": "depth",
+      "depthMeaning": "Relative inverse depth inferred from a single photograph. White is nearer; values are not metric. Only a front-facing relief is supported, not a complete 3D reconstruction."
+    },
+    "byetta-pen": {
+      "path": "media/cutouts/byetta-pen.png",
+      "webpPath": "media/cutouts/byetta-pen.webp",
+      "alphaPath": "media/cutouts/byetta-pen-mask.png",
+      "sourcePath": "media/drugs/byetta-pen.jpg",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53d03c03-ebf7-418d-88a8-533eabd2ee4f",
+      "author": "See source record",
+      "sourceLicense": "Manufacturer photograph via DailyMed; trademarks remain with owners",
+      "sourceLicenseUrl": null,
+      "dimensions": [
+        418,
+        122
+      ],
+      "method": "ISNet + manual white-cap mask correction",
+      "processing": {
+        "input": "media/drugs/byetta-pen.jpg",
+        "sourceCrop": null,
+        "alphaCrop": [
+          0,
+          0,
+          418,
+          122
+        ],
+        "outputSize": [
+          418,
+          122
+        ],
+        "model": "ISNet + manual white-cap mask correction",
+        "seconds": 4.08
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "White cap was missed by both neural masks and preserved through a manually traced source-pixel mask correction. Source resolution is 420×158.",
+      "sourceSha256": "9d2df8ae5475da4975de728bbc4022cb68323f3d86afb4f27f82a52f94e14f36",
+      "pngBytes": 48259,
+      "webpBytes": 28774
+    },
+    "captopril": {
+      "path": "media/cutouts/captopril.png",
+      "webpPath": "media/cutouts/captopril.webp",
+      "alphaPath": "media/cutouts/captopril-mask.png",
+      "sourcePath": "media/drugs/captopril.png",
+      "sourceUrl": "https://vastoversdrugsandalliedproducts.com/product/captopril-25-mg-x-56-tablets/",
+      "author": "See source record",
+      "sourceLicense": "Retailer product photograph; no open reuse license identified",
+      "sourceLicenseUrl": null,
+      "dimensions": [
+        786,
+        476
+      ],
+      "method": "Preserved source alpha; tightly cropped",
+      "processing": {
+        "input": "media/drugs/captopril.png",
+        "model": null,
+        "method": "Preserved source alpha; tightly cropped",
+        "alphaCrop": [
+          159,
+          310,
+          945,
+          786
+        ],
+        "outputSize": [
+          786,
+          476
+        ]
+      },
+      "changes": "Background removed with an alpha mask; transparent margins cropped; downsampled only if maximum dimension exceeds 1600 pixels. Photographic RGB content retained without synthesis.",
+      "limitation": "Original alpha mask preserved, transparent margins cropped. Product photograph reuse rights remain those of the original source.",
+      "sourceSha256": "3694e92a9fb4b1de84ab3230131c98dee4f6080f886223ec27f447fd279f115d",
+      "pngBytes": 361898,
+      "webpBytes": 134854
+    }
+  }
+}

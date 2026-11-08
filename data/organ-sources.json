@@ -1,0 +1,1976 @@
+{
+  "title": "BodyParts3D anatomical organ mesh subset",
+  "primaryReadme": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/README_e.html",
+  "primaryArchiveLicense": "CC BY 4.0; official README updated2025-02-27",
+  "primaryAttribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+  "mirrorReadme": "https://github.com/olivercase/body_parts_3d_api",
+  "mirrorLicense": "CC BY-SA 2.1 Japan preserved for downloaded4.3 meshes and their adaptations",
+  "coordinateSystem": {
+    "handedness": "right-handed",
+    "x": "patient left (+)",
+    "y": "superior (+)",
+    "z": "anterior (+)",
+    "originalAxes": {
+      "X": "patient left (+)",
+      "Y": "posterior (+)",
+      "Z": "superior (+)"
+    },
+    "originalUnits": "BodyParts3D coordinate units (approximately millimetres)",
+    "scale": 0.013333333333333334,
+    "transform4x4RowMajor": [
+      0.013333333333,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.013333333333,
+      -15.333333333333,
+      0.0,
+      -0.013333333333,
+      0.0,
+      -1.466666666667,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "formula": "x=X*8/600; y=(Z-1150)*8/600; z=-(Y+110)*8/600",
+    "skinOriginalSuperiorRange": [
+      850,
+      1450
+    ],
+    "skinHeight": 8,
+    "cameraFront": "View from positive z toward negative z; patient left appears on screen right."
+  },
+  "meshSources": [
+    {
+      "id": "skin",
+      "name": "Torso skin surface",
+      "group": "skin",
+      "sources": [
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ2810.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ2810",
+          "sha256": "50fb17d0b3559b8b6c5481dbe7f877d25726e576564da615c45b2dd7654e315d",
+          "originalVertexCount": 102467,
+          "originalTriangleCount": 203382,
+          "originalBounds": [
+            [
+              -334.119,
+              -246.783,
+              -78.1112
+            ],
+            [
+              332.825,
+              45.2476,
+              1641.36
+            ]
+          ],
+          "weldedVertexCount": 101691,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 60549,
+      "outputTriangles": 3000,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. Skin sliced to original Z=850..1450, uncapped open edges.",
+      "bounds": [
+        [
+          -3.72926,
+          -3.99196,
+          -2.07757
+        ],
+        [
+          3.71028,
+          3.9962,
+          1.54504
+        ]
+      ],
+      "center": [
+        -0.00949,
+        0.00212,
+        -0.26627
+      ]
+    },
+    {
+      "id": "ribs",
+      "name": "Ribs, costal cartilage and sternum",
+      "group": "ribs",
+      "sources": [
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3153.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3153",
+          "sha256": "d17057ed1dad252a6fa6a3e8d92bc13310cebe0b584df147af0cc4a646f98f3e",
+          "originalVertexCount": 495,
+          "originalTriangleCount": 922,
+          "originalBounds": [
+            [
+              -10.3378,
+              -213.353,
+              1164.02
+            ],
+            [
+              10.6039,
+              -198.509,
+              1184.5
+            ]
+          ],
+          "weldedVertexCount": 463,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3178.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3178",
+          "sha256": "32a06946d8eadbe1a847a373abe7499381c0182c72b7c94e3e2a0c3ba7c867e3",
+          "originalVertexCount": 3691,
+          "originalTriangleCount": 4646,
+          "originalBounds": [
+            [
+              -23.6149,
+              -213.832,
+              1179.65
+            ],
+            [
+              23.9556,
+              -165.166,
+              1289.64
+            ]
+          ],
+          "weldedVertexCount": 2327,
+          "weldedBodyCount": 10
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3225.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3225",
+          "sha256": "daa25aba7fba3ff691d61cd239f8d49debc84ff871a351051c1d57a192b91dfd",
+          "originalVertexCount": 3419,
+          "originalTriangleCount": 6826,
+          "originalBounds": [
+            [
+              15.5623,
+              -117.715,
+              1022.96
+            ],
+            [
+              122.349,
+              -11.3545,
+              1158.99
+            ]
+          ],
+          "weldedVertexCount": 3415,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3226.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3226",
+          "sha256": "4bb9d52fdb2c15cb459c2bd08fd58082cdb39d15903cde675313762ea2287fc8",
+          "originalVertexCount": 2435,
+          "originalTriangleCount": 4866,
+          "originalBounds": [
+            [
+              16.279,
+              -96.0117,
+              1008.06
+            ],
+            [
+              110.054,
+              -17.9614,
+              1121.74
+            ]
+          ],
+          "weldedVertexCount": 2435,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3227.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3227",
+          "sha256": "83e04b8b6f91e4de57e7b380a2f2c7d6f0bbf284ce76710ca89aa82fb376bd4e",
+          "originalVertexCount": 1411,
+          "originalTriangleCount": 2818,
+          "originalBounds": [
+            [
+              16.8903,
+              -66.0698,
+              1011.33
+            ],
+            [
+              85.2211,
+              -28.0149,
+              1089.16
+            ]
+          ],
+          "weldedVertexCount": 1411,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3228.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3228",
+          "sha256": "eb534d19462226e26b91234544f99abe118878a25c125f2a8839341e6769252b",
+          "originalVertexCount": 1641,
+          "originalTriangleCount": 3276,
+          "originalBounds": [
+            [
+              13.8004,
+              -130.42,
+              1310.07
+            ],
+            [
+              68.4546,
+              -64.417,
+              1370.48
+            ]
+          ],
+          "weldedVertexCount": 1640,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3229.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3229",
+          "sha256": "b752f038ceba8430f3872897ce69495d7dd74ed8e19c21d3f75d0bc0b156d84f",
+          "originalVertexCount": 2862,
+          "originalTriangleCount": 5594,
+          "originalBounds": [
+            [
+              14.7349,
+              -167.127,
+              1273.51
+            ],
+            [
+              95.661,
+              -50.6468,
+              1359.03
+            ]
+          ],
+          "weldedVertexCount": 2799,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3230.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3230",
+          "sha256": "8b42d241c711fe9765b1239be33fcab6b865ab4619b5d05fa98ea245b6075d5c",
+          "originalVertexCount": 3637,
+          "originalTriangleCount": 7254,
+          "originalBounds": [
+            [
+              12.7243,
+              -179.257,
+              1243.84
+            ],
+            [
+              107.633,
+              -36.8579,
+              1335.98
+            ]
+          ],
+          "weldedVertexCount": 3629,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3231.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3231",
+          "sha256": "28b852d4813703c5654d0405168e22bf0032632d47b9667b4b16e60ed89a425b",
+          "originalVertexCount": 4445,
+          "originalTriangleCount": 8850,
+          "originalBounds": [
+            [
+              12.9057,
+              -192.195,
+              1211.1
+            ],
+            [
+              116.281,
+              -23.1919,
+              1315.35
+            ]
+          ],
+          "weldedVertexCount": 4427,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3232.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3232",
+          "sha256": "6fa730aea273685148d3e9d3f52fe450acec4c13d6e3b1b6865e0e9532283abb",
+          "originalVertexCount": 4912,
+          "originalTriangleCount": 9710,
+          "originalBounds": [
+            [
+              14.0045,
+              -197.688,
+              1172.17
+            ],
+            [
+              125.768,
+              -12.7227,
+              1291.32
+            ]
+          ],
+          "weldedVertexCount": 4857,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3233.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3233",
+          "sha256": "2a0f1e32b8410b6396bea7ae342a16ae1ac1b77042e70d7e98cabeb7dcf3dfb9",
+          "originalVertexCount": 5172,
+          "originalTriangleCount": 10264,
+          "originalBounds": [
+            [
+              12.7754,
+              -193.495,
+              1137.9
+            ],
+            [
+              133.054,
+              -3.6444,
+              1266.83
+            ]
+          ],
+          "weldedVertexCount": 5134,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3234.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3234",
+          "sha256": "638a766f20b64d02095efa845b5ea316624a376acb44c7e4a6d533d4da6ef4db",
+          "originalVertexCount": 5054,
+          "originalTriangleCount": 10032,
+          "originalBounds": [
+            [
+              12.3825,
+              -180.208,
+              1105.19
+            ],
+            [
+              135.778,
+              -4.49795,
+              1240.25
+            ]
+          ],
+          "weldedVertexCount": 5018,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3235.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3235",
+          "sha256": "81a7215ef6ed923bbad6f07208bbc0ee26ddbaae3b1423f624cae465012d9144",
+          "originalVertexCount": 4211,
+          "originalTriangleCount": 8336,
+          "originalBounds": [
+            [
+              12.3704,
+              -162.675,
+              1074.65
+            ],
+            [
+              131.638,
+              -4.56957,
+              1211.32
+            ]
+          ],
+          "weldedVertexCount": 4170,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3236.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3236",
+          "sha256": "3dc292292b9f2bd5e226ac100d3a8db76cba8eb1d9d09533a6e5e871f023e2a8",
+          "originalVertexCount": 3805,
+          "originalTriangleCount": 7576,
+          "originalBounds": [
+            [
+              14.5582,
+              -135.602,
+              1050.09
+            ],
+            [
+              127.783,
+              -7.52766,
+              1185.36
+            ]
+          ],
+          "weldedVertexCount": 3790,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3239.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3239",
+          "sha256": "9ca5fdb0582ad2795c9316ab9bb2f89f952b5a8c8fcf92a37efa042fc5c7739c",
+          "originalVertexCount": 418,
+          "originalTriangleCount": 642,
+          "originalBounds": [
+            [
+              19.4952,
+              -150.812,
+              1296.87
+            ],
+            [
+              56.1953,
+              -122.324,
+              1320.25
+            ]
+          ],
+          "weldedVertexCount": 323,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3242.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3242",
+          "sha256": "c83bb88d995837a455e72707e9d5ecb0035ad60d8fd2f6f28d3710b4ef4c9d8e",
+          "originalVertexCount": 330,
+          "originalTriangleCount": 588,
+          "originalBounds": [
+            [
+              10.2025,
+              -178.245,
+              1270.17
+            ],
+            [
+              48.0573,
+              -157.748,
+              1288.01
+            ]
+          ],
+          "weldedVertexCount": 296,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3245.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3245",
+          "sha256": "ac65f51684b5dbcc3ea82381edae8723cbd9c7b8680bf6149a31dbf0acd26065",
+          "originalVertexCount": 328,
+          "originalTriangleCount": 604,
+          "originalBounds": [
+            [
+              13.0945,
+              -190.074,
+              1242.4
+            ],
+            [
+              50.7226,
+              -171.438,
+              1259.99
+            ]
+          ],
+          "weldedVertexCount": 304,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3248.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3248",
+          "sha256": "3633cb39f1540513872b9477c829d562114dce8d19cba5c99073fe4e3abeb1be",
+          "originalVertexCount": 371,
+          "originalTriangleCount": 658,
+          "originalBounds": [
+            [
+              14.3017,
+              -198.577,
+              1211.08
+            ],
+            [
+              59.7768,
+              -184.326,
+              1235.57
+            ]
+          ],
+          "weldedVertexCount": 331,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3251.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3251",
+          "sha256": "86be490af572a3d8c7f41fd1ed3f4bfac19a9966737bc1275f135f160d8298be",
+          "originalVertexCount": 594,
+          "originalTriangleCount": 1086,
+          "originalBounds": [
+            [
+              17.7153,
+              -209.038,
+              1171.61
+            ],
+            [
+              82.0336,
+              -189.325,
+              1215.24
+            ]
+          ],
+          "weldedVertexCount": 545,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3254.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3254",
+          "sha256": "bc9ca44f2ea1fa9800d7f0a35c4596f41df1750ba9c89910d4f64041131db2bf",
+          "originalVertexCount": 815,
+          "originalTriangleCount": 1498,
+          "originalBounds": [
+            [
+              13.8622,
+              -212.161,
+              1137.58
+            ],
+            [
+              93.0014,
+              -185.172,
+              1197.28
+            ]
+          ],
+          "weldedVertexCount": 751,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3255.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3255",
+          "sha256": "97e69ede580a6e81cc42bb54fb22d4752719b61c5fced8ccccfb18ce64996676",
+          "originalVertexCount": 1367,
+          "originalTriangleCount": 2314,
+          "originalBounds": [
+            [
+              3.32896,
+              -213.216,
+              1102.58
+            ],
+            [
+              108.457,
+              -170.904,
+              1186.41
+            ]
+          ],
+          "weldedVertexCount": 1159,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3290.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3290",
+          "sha256": "b847e67db475197cc4510744fef76bafd8e75c50797ca85eb8cd56dd853d61d6",
+          "originalVertexCount": 1446,
+          "originalTriangleCount": 2546,
+          "originalBounds": [
+            [
+              -27.4497,
+              -178.588,
+              1280.27
+            ],
+            [
+              27.4497,
+              -130.801,
+              1325.25
+            ]
+          ],
+          "weldedVertexCount": 1275,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3330.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3330",
+          "sha256": "0f688dd4e0d20a8328b4763c0acc7582a9beac8fe5c7ce58586db99c6e366945",
+          "originalVertexCount": 3415,
+          "originalTriangleCount": 6820,
+          "originalBounds": [
+            [
+              -123.648,
+              -117.687,
+              1022.98
+            ],
+            [
+              -16.8729,
+              -11.3593,
+              1158.98
+            ]
+          ],
+          "weldedVertexCount": 3412,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3331.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3331",
+          "sha256": "761d6d8713c31d4b9f795c4875da9fc750c913907386489568fdebea15af49c3",
+          "originalVertexCount": 2437,
+          "originalTriangleCount": 4866,
+          "originalBounds": [
+            [
+              -111.353,
+              -96.0183,
+              1008.08
+            ],
+            [
+              -17.5963,
+              -17.962,
+              1121.73
+            ]
+          ],
+          "weldedVertexCount": 2435,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3332.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3332",
+          "sha256": "ece92488a9293cde2d8a8275cee8232326b377811afba888f6147d7217e04e07",
+          "originalVertexCount": 1412,
+          "originalTriangleCount": 2818,
+          "originalBounds": [
+            [
+              -86.5332,
+              -66.0973,
+              1011.34
+            ],
+            [
+              -18.2125,
+              -27.9922,
+              1089.17
+            ]
+          ],
+          "weldedVertexCount": 1411,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3333.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3333",
+          "sha256": "616b5add6471a3fd2a7297cbebfee18a13866eb165ca0be05c5942ae16bacc10",
+          "originalVertexCount": 436,
+          "originalTriangleCount": 676,
+          "originalBounds": [
+            [
+              -56.1874,
+              -150.757,
+              1296.91
+            ],
+            [
+              -19.5121,
+              -122.171,
+              1320.22
+            ]
+          ],
+          "weldedVertexCount": 340,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3334.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3334",
+          "sha256": "ecef0080744a8422b72b4f52229bd68945692cdef7d6fe2a57043b2155c49d17",
+          "originalVertexCount": 1642,
+          "originalTriangleCount": 3276,
+          "originalBounds": [
+            [
+              -69.7641,
+              -130.424,
+              1310.07
+            ],
+            [
+              -15.1109,
+              -64.4146,
+              1370.48
+            ]
+          ],
+          "weldedVertexCount": 1640,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3335.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3335",
+          "sha256": "065a4969ea4210ce6d3f5838dc2da20f1153de478e02c7a86ced152eab82bf6a",
+          "originalVertexCount": 383,
+          "originalTriangleCount": 658,
+          "originalBounds": [
+            [
+              -48.187,
+              -178.261,
+              1270.12
+            ],
+            [
+              -10.2446,
+              -157.745,
+              1288.02
+            ]
+          ],
+          "weldedVertexCount": 333,
+          "weldedBodyCount": 2
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3336.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3336",
+          "sha256": "e9f527453bb2a48764ac7243d0b9b23e37fb2a85e92cee445972a1a770a5eaa4",
+          "originalVertexCount": 2861,
+          "originalTriangleCount": 5594,
+          "originalBounds": [
+            [
+              -96.9721,
+              -167.157,
+              1273.55
+            ],
+            [
+              -16.0495,
+              -50.6529,
+              1359.03
+            ]
+          ],
+          "weldedVertexCount": 2799,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3337.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3337",
+          "sha256": "469513e43364a7212843011c944a9fff22b5b50496a11e739bcdafc70005d3dd",
+          "originalVertexCount": 386,
+          "originalTriangleCount": 652,
+          "originalBounds": [
+            [
+              -50.7242,
+              -190.108,
+              1242.38
+            ],
+            [
+              -13.051,
+              -171.421,
+              1259.98
+            ]
+          ],
+          "weldedVertexCount": 328,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3338.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3338",
+          "sha256": "69dbbcfc72d592aa862621612e7ad1151ada3fa06c5ce51e24731015561ad7ac",
+          "originalVertexCount": 3634,
+          "originalTriangleCount": 7254,
+          "originalBounds": [
+            [
+              -108.947,
+              -179.268,
+              1243.82
+            ],
+            [
+              -14.024,
+              -36.829,
+              1335.97
+            ]
+          ],
+          "weldedVertexCount": 3629,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3339.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3339",
+          "sha256": "fc442f6596ca1a7ce18fc2d65cb92dcc1de1951381ebd631223469b6e84923b1",
+          "originalVertexCount": 391,
+          "originalTriangleCount": 694,
+          "originalBounds": [
+            [
+              -59.9068,
+              -198.587,
+              1211.1
+            ],
+            [
+              -14.3111,
+              -184.204,
+              1235.56
+            ]
+          ],
+          "weldedVertexCount": 349,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3340.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3340",
+          "sha256": "b9bc6bbb160fd579ed246c3eb145b39f82866dc2dfeebe798f0dba5a2e352597",
+          "originalVertexCount": 4435,
+          "originalTriangleCount": 8832,
+          "originalBounds": [
+            [
+              -117.593,
+              -192.192,
+              1211.1
+            ],
+            [
+              -15.0119,
+              -23.1945,
+              1315.35
+            ]
+          ],
+          "weldedVertexCount": 4418,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3341.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3341",
+          "sha256": "921b821e925624302d8ab138dfa80a24bf3d9150e006b7ac27a2b5f73d15ab33",
+          "originalVertexCount": 652,
+          "originalTriangleCount": 1168,
+          "originalBounds": [
+            [
+              -82.1658,
+              -209.036,
+              1171.61
+            ],
+            [
+              -17.6996,
+              -189.316,
+              1215.25
+            ]
+          ],
+          "weldedVertexCount": 586,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3342.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3342",
+          "sha256": "11d403618e4114a5edcd8f2fa4e90ef4e6427b04f4cd3962c59462694b55c443",
+          "originalVertexCount": 4910,
+          "originalTriangleCount": 9710,
+          "originalBounds": [
+            [
+              -127.079,
+              -197.651,
+              1172.16
+            ],
+            [
+              -15.3142,
+              -12.7276,
+              1291.32
+            ]
+          ],
+          "weldedVertexCount": 4857,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3343.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3343",
+          "sha256": "3b633ffd599c51c1f00d66442855a047b013bda569fa092ea31ece5fdc289111",
+          "originalVertexCount": 971,
+          "originalTriangleCount": 1546,
+          "originalBounds": [
+            [
+              -93.6974,
+              -212.187,
+              1137.56
+            ],
+            [
+              -13.8655,
+              -184.749,
+              1197.25
+            ]
+          ],
+          "weldedVertexCount": 787,
+          "weldedBodyCount": 7
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3344.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3344",
+          "sha256": "67f1f42fea1c289adaf4929716534bad7dfdd136ca0057f05de83d6e20c8f0a8",
+          "originalVertexCount": 5168,
+          "originalTriangleCount": 10246,
+          "originalBounds": [
+            [
+              -134.349,
+              -193.505,
+              1137.91
+            ],
+            [
+              -14.8373,
+              -3.64141,
+              1265.7
+            ]
+          ],
+          "weldedVertexCount": 5125,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3345.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3345",
+          "sha256": "a4d22796f4ffc6f9ad1b7d620c917be1638244864eca62aec60bd11033ed3041",
+          "originalVertexCount": 1538,
+          "originalTriangleCount": 2450,
+          "originalBounds": [
+            [
+              -109.909,
+              -213.208,
+              1102.56
+            ],
+            [
+              49.5653,
+              -170.775,
+              1186.45
+            ]
+          ],
+          "weldedVertexCount": 1233,
+          "weldedBodyCount": 4
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3346.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3346",
+          "sha256": "91aa56e034fbe6f413c0f15b76d725a1f8efd115aa2900beda6edf43a3ab0c43",
+          "originalVertexCount": 5058,
+          "originalTriangleCount": 10032,
+          "originalBounds": [
+            [
+              -137.085,
+              -180.203,
+              1105.19
+            ],
+            [
+              -13.6897,
+              -4.48691,
+              1240.27
+            ]
+          ],
+          "weldedVertexCount": 5018,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3347.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3347",
+          "sha256": "43a1591cf1e123ca01f64297a7ce008d679a5f5f26421cc5b69e2232da89d743",
+          "originalVertexCount": 4199,
+          "originalTriangleCount": 8336,
+          "originalBounds": [
+            [
+              -132.968,
+              -162.678,
+              1074.66
+            ],
+            [
+              -13.6765,
+              -4.56449,
+              1211.33
+            ]
+          ],
+          "weldedVertexCount": 4170,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ3348.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ3348",
+          "sha256": "7d3a969b778da18eb38b1a64d92e2b90e1730fcb0d7b2bfacd125ff4826876d0",
+          "originalVertexCount": 3808,
+          "originalTriangleCount": 7576,
+          "originalBounds": [
+            [
+              -129.098,
+              -135.632,
+              1050.09
+            ],
+            [
+              -15.8646,
+              -7.52907,
+              1185.37
+            ]
+          ],
+          "weldedVertexCount": 3790,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 194110,
+      "outputTriangles": 4000,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          -1.83137,
+          -1.89487,
+          -1.41929
+        ],
+        [
+          1.81042,
+          2.94737,
+          1.38137
+        ]
+      ],
+      "center": [
+        -0.01047,
+        0.52625,
+        -0.01896
+      ]
+    },
+    {
+      "id": "heart",
+      "name": "Heart walls",
+      "group": "heart",
+      "sources": [
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+          "archiveMember": "isa_BP3D_4.0_obj_99/FJ2428.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ2428",
+          "sha256": "ac3c7d6714bed8cf549c97b013546541cf67e189dad2107092a59758aa3ccc45",
+          "originalVertexCount": 21047,
+          "originalTriangleCount": 37442,
+          "originalBounds": [
+            [
+              -23.0179,
+              -176.605,
+              1174.19
+            ],
+            [
+              79.1396,
+              -83.1177,
+              1265.92
+            ]
+          ],
+          "weldedVertexCount": 18706,
+          "weldedBodyCount": 8
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ2438.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ2438",
+          "sha256": "187235f3c3612ef27abde924d01c71579c2946435e64319164f43e5ad008284d",
+          "originalVertexCount": 4284,
+          "originalTriangleCount": 7544,
+          "originalBounds": [
+            [
+              -22.8801,
+              -151.151,
+              1199.43
+            ],
+            [
+              63.2392,
+              -70.1704,
+              1272.4
+            ]
+          ],
+          "weldedVertexCount": 3766,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ2439.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ2439",
+          "sha256": "e7c21cd1659eced056eb56e28f4fa9019ace451ea6e0333097846177f807bb5a",
+          "originalVertexCount": 9887,
+          "originalTriangleCount": 17784,
+          "originalBounds": [
+            [
+              -36.3037,
+              -162.645,
+              1183.08
+            ],
+            [
+              6.77791,
+              -96.345,
+              1279.5
+            ]
+          ],
+          "weldedVertexCount": 8890,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 62770,
+      "outputTriangles": 3197,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          -0.48651,
+          0.32317,
+          -0.52745
+        ],
+        [
+          1.05495,
+          1.72693,
+          0.88697
+        ]
+      ],
+      "center": [
+        0.28422,
+        1.02505,
+        0.17976
+      ]
+    },
+    {
+      "id": "lungs",
+      "name": "Lung parenchyma",
+      "group": "lungs",
+      "sources": [
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6595_BP29727_FMA27368_Parenchyma%20of%20apicoposterior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6595",
+          "sha256": "7ea4893b69f3939ab0759329314e82e08b8843cdd5284f495e72c152ba99c501",
+          "originalVertexCount": 3145,
+          "originalTriangleCount": 5166,
+          "originalBounds": [
+            [
+              15.3131,
+              -144.722,
+              1282.76
+            ],
+            [
+              85.1388,
+              -57.5489,
+              1358.27
+            ]
+          ],
+          "weldedVertexCount": 2585,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6596_BP29748_FMA27394_Parenchyma%20of%20left%20posterior%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6596",
+          "sha256": "9118fad4b7ec3961f631e9c823bb2e26c3d0d4f22b7e4b84ca7a527ce3097bb2",
+          "originalVertexCount": 5523,
+          "originalTriangleCount": 8202,
+          "originalBounds": [
+            [
+              18.8025,
+              -110.945,
+              1119.48
+            ],
+            [
+              87.9288,
+              -15.7895,
+              1234.68
+            ]
+          ],
+          "weldedVertexCount": 4103,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6597_BP29727_FMA27368_Parenchyma%20of%20apicoposterior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6597",
+          "sha256": "cdb94282a4b2eff1f5382f3807413e277323b242878f77e81de8defba87aa6e0",
+          "originalVertexCount": 3923,
+          "originalTriangleCount": 5126,
+          "originalBounds": [
+            [
+              17.1895,
+              -117.948,
+              1269.74
+            ],
+            [
+              99.0747,
+              -34.9713,
+              1340.39
+            ]
+          ],
+          "weldedVertexCount": 2563,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6598_BP29733_FMA27374_Parenchyma%20of%20left%20anterior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6598",
+          "sha256": "bd5397777af624b53aec390f917b1943e993ca05523ccd052c3e2c0406a75523",
+          "originalVertexCount": 6309,
+          "originalTriangleCount": 8200,
+          "originalBounds": [
+            [
+              5.29277,
+              -182.206,
+              1237.3
+            ],
+            [
+              108.64,
+              -39.3115,
+              1298.38
+            ]
+          ],
+          "weldedVertexCount": 4101,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6599_BP29752_FMA27375_Parenchyma%20of%20superior%20lingular%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6599",
+          "sha256": "29ed36210a5c1c838f75392b1613a1be7cabf6a652f67cdc0885237ca8375a3a",
+          "originalVertexCount": 5632,
+          "originalTriangleCount": 7566,
+          "originalBounds": [
+            [
+              29.117,
+              -191.753,
+              1200.29
+            ],
+            [
+              121.654,
+              -50.4677,
+              1259.25
+            ]
+          ],
+          "weldedVertexCount": 3785,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6600_BP29730_FMA27376_Parenchyma%20of%20inferior%20lingular%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6600",
+          "sha256": "75e86567fbaa11cc44a2b8762805634483ed65b2cce989f86cab4d6c5aa91daf",
+          "originalVertexCount": 4812,
+          "originalTriangleCount": 5824,
+          "originalBounds": [
+            [
+              34.1147,
+              -195.675,
+              1154.49
+            ],
+            [
+              122.976,
+              -94.06,
+              1229.3
+            ]
+          ],
+          "weldedVertexCount": 2914,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6601_BP29750_FMA27386_Parenchyma%20of%20left%20superior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6601",
+          "sha256": "c8b7c7829ce551fe05164dd3ec36219683ae835c4d2d5d208d80d5d7056cce4c",
+          "originalVertexCount": 4909,
+          "originalTriangleCount": 6168,
+          "originalBounds": [
+            [
+              24.4028,
+              -90.3776,
+              1222.14
+            ],
+            [
+              113.892,
+              -18.0547,
+              1315.82
+            ]
+          ],
+          "weldedVertexCount": 3086,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6602_BP29736_FMA27392_Parenchyma%20of%20left%20anterior%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6602",
+          "sha256": "1e566045c052a67b15451bc8b19418c2002e0edd5a13d9888e508ce3e76306ef",
+          "originalVertexCount": 8092,
+          "originalTriangleCount": 11148,
+          "originalBounds": [
+            [
+              35.3875,
+              -190.354,
+              1117.06
+            ],
+            [
+              127.442,
+              -38.8575,
+              1238.67
+            ]
+          ],
+          "weldedVertexCount": 5572,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6603_BP29740_FMA27390_Parenchyma%20of%20left%20lateral%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6603",
+          "sha256": "31cb5ac0e564a3fc261454cc6bbf92f9209af0a4c8dc6a8ffd5f66aee7cdadf6",
+          "originalVertexCount": 5157,
+          "originalTriangleCount": 7690,
+          "originalBounds": [
+            [
+              66.5086,
+              -127.421,
+              1116.52
+            ],
+            [
+              125.675,
+              -17.801,
+              1231.15
+            ]
+          ],
+          "weldedVertexCount": 3845,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6604_BP29747_FMA27369_Parenchyma%20of%20right%20apical%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6604",
+          "sha256": "1c7ce21579d68bfe40b634afe28fc1879119563b49f810a3f8be3487743c24ac",
+          "originalVertexCount": 5325,
+          "originalTriangleCount": 7396,
+          "originalBounds": [
+            [
+              -91.4783,
+              -150.594,
+              1262.66
+            ],
+            [
+              -9.1513,
+              -51.6516,
+              1359.67
+            ]
+          ],
+          "weldedVertexCount": 3700,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6605_BP29757_FMA27393_Parenchyma%20of%20right%20posterior%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6605",
+          "sha256": "34e470e53185584a1426de78f5acc10010d15613ef4bd1b6f621f0c3b847b14d",
+          "originalVertexCount": 4247,
+          "originalTriangleCount": 6322,
+          "originalBounds": [
+            [
+              -89.8526,
+              -88.9849,
+              1118.92
+            ],
+            [
+              -13.6876,
+              -16.6941,
+              1228.24
+            ]
+          ],
+          "weldedVertexCount": 3163,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6606_BP29759_FMA27371_Parenchyma%20of%20right%20posterior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6606",
+          "sha256": "93aed0947f6b07097b8ffa5919add13a43ac2ee28057fd71d1c33608dfe947db",
+          "originalVertexCount": 6672,
+          "originalTriangleCount": 7300,
+          "originalBounds": [
+            [
+              -111.149,
+              -96.304,
+              1240.89
+            ],
+            [
+              -15.4472,
+              -34.0245,
+              1335.49
+            ]
+          ],
+          "weldedVertexCount": 3646,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6607_BP29754_FMA27373_Parenchyma%20of%20right%20anterior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6607",
+          "sha256": "6974afbef91d64cd79f72ce4610817d410070d1c3dbefbf45e4534618de0eb9e",
+          "originalVertexCount": 7244,
+          "originalTriangleCount": 9526,
+          "originalBounds": [
+            [
+              -114.065,
+              -183.321,
+              1227.65
+            ],
+            [
+              -5.74137,
+              -70.6327,
+              1309.63
+            ]
+          ],
+          "weldedVertexCount": 4763,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6608_BP29731_FMA27452_Parenchyma%20of%20lateral%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6608",
+          "sha256": "27532577854c67efca554e397a377f78028788f26b0f9a918ef2df5bc5279622",
+          "originalVertexCount": 6601,
+          "originalTriangleCount": 7734,
+          "originalBounds": [
+            [
+              -125.189,
+              -164.775,
+              1159.62
+            ],
+            [
+              -24.343,
+              -44.7714,
+              1252.3
+            ]
+          ],
+          "weldedVertexCount": 3869,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6609_BP29735_FMA27448_Parenchyma%20of%20medial%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6609",
+          "sha256": "03b2794808796e8370c11263c7a9a599779b7bac72e58387414c3c60d7a3a7c3",
+          "originalVertexCount": 5144,
+          "originalTriangleCount": 7784,
+          "originalBounds": [
+            [
+              -104.042,
+              -196.479,
+              1156.85
+            ],
+            [
+              -5.594,
+              -81.8259,
+              1241.71
+            ]
+          ],
+          "weldedVertexCount": 3894,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6610_BP29745_FMA27385_Parenchyma%20of%20right%20superior%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6610",
+          "sha256": "15d635ce8fd7c4ead1c9fe7d4c38ec33ce3187857c52fd83eea4b1d735a4b3c8",
+          "originalVertexCount": 5590,
+          "originalTriangleCount": 6602,
+          "originalBounds": [
+            [
+              -111.416,
+              -87.5831,
+              1211.25
+            ],
+            [
+              -15.0445,
+              -17.981,
+              1304.15
+            ]
+          ],
+          "weldedVertexCount": 3301,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6611_BP29753_FMA27391_Parenchyma%20of%20right%20anterior%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6611",
+          "sha256": "f07524ff4d25a2473e6137f1153255be9e1f0b5793467a65aa08f8325a6c4547",
+          "originalVertexCount": 6494,
+          "originalTriangleCount": 9116,
+          "originalBounds": [
+            [
+              -127.716,
+              -182.398,
+              1127.39
+            ],
+            [
+              -21.9449,
+              -32.7918,
+              1234.98
+            ]
+          ],
+          "weldedVertexCount": 4560,
+          "weldedBodyCount": 1
+        },
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ6612_BP29741_FMA27389_Parenchyma%20of%20right%20lateral%20basal%20bronchopulmonary%20segment.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ6612",
+          "sha256": "c92b62bcd36076479b00ae78cb094289cd68f54202f48389450f36db12500256",
+          "originalVertexCount": 6674,
+          "originalTriangleCount": 9506,
+          "originalBounds": [
+            [
+              -125.056,
+              -123.232,
+              1118.88
+            ],
+            [
+              -19.2047,
+              -16.8054,
+              1230.57
+            ]
+          ],
+          "weldedVertexCount": 4755,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 136376,
+      "outputTriangles": 11700,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          -1.70368,
+          -0.4472,
+          -1.2583
+        ],
+        [
+          1.69858,
+          2.79704,
+          1.155
+        ]
+      ],
+      "center": [
+        -0.00255,
+        1.17492,
+        -0.05165
+      ]
+    },
+    {
+      "id": "pancreas",
+      "name": "Pancreas",
+      "group": "pancreas",
+      "sources": [
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+          "archiveMember": "partof_BP3D_4.0_obj_99/FJ1895.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ1895",
+          "sha256": "fea8a371ac940fb8c5c13e9d459af6c2bd50e1b499f8989c63883a7db0f149ae",
+          "originalVertexCount": 2462,
+          "originalTriangleCount": 4890,
+          "originalBounds": [
+            [
+              -47.9048,
+              -146.379,
+              1004.36
+            ],
+            [
+              72.6744,
+              -95.412,
+              1078.1
+            ]
+          ],
+          "weldedVertexCount": 2447,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 4890,
+      "outputTriangles": 2000,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          -0.63877,
+          -1.94239,
+          -0.19463
+        ],
+        [
+          0.96998,
+          -0.95779,
+          0.48457
+        ]
+      ],
+      "center": [
+        0.16561,
+        -1.45009,
+        0.14497
+      ]
+    },
+    {
+      "id": "spinal-cord",
+      "name": "Spinal cord neural tissue",
+      "group": "spinalCord",
+      "sources": [
+        {
+          "version": "4.3",
+          "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/main/meshes/FJ4426_BP29816_FMA242005_Neural%20tissue%20of%20spinal%20cord.obj",
+          "license": "CC BY-SA 2.1 Japan",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+          "originalFilename": "meshes/FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+          "attribution": "BodyParts3D / Anatomography, \u00a9 Database Center for Life Science (DBCLS), CC BY-SA 2.1 Japan; distributed via olivercase/body_parts_3d_api",
+          "id": "FJ4426",
+          "sha256": "16a3dbf5a0fbc6334df956071a8e27b4f538a9d1f18178919984df0856aa7053",
+          "originalVertexCount": 8577,
+          "originalTriangleCount": 9952,
+          "originalBounds": [
+            [
+              -9.4261,
+              -73.1423,
+              1030.56
+            ],
+            [
+              8.12147,
+              -25.7134,
+              1482.39
+            ]
+          ],
+          "weldedVertexCount": 4906,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 9952,
+      "outputTriangles": 1193,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          -0.12598,
+          -1.59062,
+          -1.12527
+        ],
+        [
+          0.10783,
+          4.43155,
+          -0.49092
+        ]
+      ],
+      "center": [
+        -0.00907,
+        1.42046,
+        -0.80809
+      ]
+    },
+    {
+      "id": "spleen",
+      "name": "Spleen",
+      "group": "spleen",
+      "sources": [
+        {
+          "version": "4.0",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+          "archiveMember": "isa_BP3D_4.0_obj_99/FJ2561.obj",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+          "id": "FJ2561",
+          "sha256": "8dadb164d15392b61e0b08286625c9ea9f959a0f13d8f166b32d84abad4689bf",
+          "originalVertexCount": 689,
+          "originalTriangleCount": 1330,
+          "originalBounds": [
+            [
+              55.6341,
+              -141.262,
+              1051.61
+            ],
+            [
+              113.868,
+              -46.1961,
+              1121.84
+            ]
+          ],
+          "weldedVertexCount": 667,
+          "weldedBodyCount": 1
+        }
+      ],
+      "inputTriangles": 1330,
+      "outputTriangles": 700,
+      "vertexClusteringApplied": false,
+      "coincidentVerticesWelded": true,
+      "processing": "Coincident vertex positions welded within each original component ignoring split OBJ normals, without moving positions. Quadric error simplification with aggression 5 (fallback 6); lung segments individually simplified to 650 faces, preserving component boundaries. No vertex clustering. Same global axis change and uniform scale. No clipping, invented structures, independent translation, or independent scaling.",
+      "bounds": [
+        [
+          0.74036,
+          -1.31187,
+          -0.8527
+        ],
+        [
+          1.51983,
+          -0.37495,
+          0.41701
+        ]
+      ],
+      "center": [
+        1.13009,
+        -0.84341,
+        -0.21784
+      ]
+    }
+  ],
+  "limitations": [
+    "One adult male reference model; not patient-specific anatomy.",
+    "Skin is an uncapped torso-region crop of the real whole-body mesh and can include proximal arms.",
+    "Heart mesh includes ventricular and atrial walls; valve, coronary and great-vessel details are omitted.",
+    "Lungs are the sourced bronchopulmonary parenchymal segment surfaces, not a reconstructed outer hull.",
+    "Lymph node geometry was not found in the selected BodyParts3D manifest and is not fabricated; spleen is supplied as a real immune organ.",
+    "Quadratic-error decimation removes geometric detail; meshes are educational display assets, not clinical measurements."
+  ],
+  "triangleCount": 25790
+}

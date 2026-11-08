@@ -1,0 +1,46 @@
+{
+  "jararaca": {
+    "path": "media/audio/adventures/jararaca.mp3",
+    "title": "Snake hissing.mp3",
+    "author": "schreibsel",
+    "sourceUrl": "https://freesound.org/people/schreibsel/sounds/540162/",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "cue": "Representative snake hiss",
+    "note": "Uploader describes a snake hissing; no species is identified. This is not a verified Bothrops jararaca recording. Recording method is not stated.",
+    "processing": "Full 2.95-second public HQ preview; gain +20 dB, MP3 128 kbps. No alteration to pitch or timing."
+  },
+  "bee": {
+    "path": "media/audio/adventures/bee.mp3",
+    "title": "Honey Bees Buzzing",
+    "author": "kiwimana",
+    "sourceUrl": "https://freesound.org/people/kiwimana/sounds/341639/",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "cue": "Honeybee hive recording",
+    "note": "Actual honey bees returning to their hive, summer 2016, Waitakere Ranges, Auckland, New Zealand. Uploader does not give a species-level taxonomic identification.",
+    "processing": "16-second excerpt from 5 seconds into public HQ MP3 preview; 0.4-second fade in, 0.7-second fade out; MP3 128 kbps."
+  },
+  "gila": {
+    "path": "media/audio/adventures/gila.mp3",
+    "title": "Wind on bushes with muffled gust of wind, twig branch, close to desert ground",
+    "author": "Félix Blume (felix.blume)",
+    "sourceUrl": "https://freesound.org/people/felix.blume/sounds/711106/",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "cue": "Desert ambience",
+    "note": "Actual desert wind/bush field recording in California, USA, November 2011. This is ambience, not a Gila monster vocalization or a verified Gila monster habitat recording.",
+    "processing": "18-second excerpt from 1 second into public HQ MP3 preview; 0.4-second fade in, 0.7-second fade out; MP3 128 kbps. Only a prefix of the long public preview was downloaded. Gain +14 dB."
+  },
+  "cone": {
+    "path": "media/audio/adventures/cone.mp3",
+    "title": "Underwater crackling sounds_Hydrophone.wav",
+    "author": "KaleidacousticsAudio",
+    "sourceUrl": "https://freesound.org/people/KaleidacousticsAudio/sounds/630436/",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "cue": "Underwater ambience",
+    "note": "Actual hydrophone field recording from an anchored boat in a cove off Hvar, Croatia. The uploader attributes continuous crackling probably to pistol shrimp. This is underwater ambience, not a cone-snail sound or a verified Conus magus habitat recording.",
+    "processing": "18-second excerpt from 1 second into public HQ MP3 preview; 0.4-second fade in, 0.7-second fade out; MP3 128 kbps. Only a prefix of the long public preview was required. Gain +4 dB."
+  }
+}

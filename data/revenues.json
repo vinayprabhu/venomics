@@ -1,0 +1,401 @@
+{
+  "version": 2,
+  "researchedOn": "2026-11-05",
+  "policy": "Captopril, Byetta and Prialt show documented historical sales lower bounds, not verified lifetime totals. Honeybee shows an explicitly modeled annual US category extract-spending scenario at 2021 list prices, not actual net revenue. Keep /yr and the modeled caption visible; do not compare it directly to cumulative sales.",
+  "entries": {
+    "jararaca": {
+      "drug": "Captopril",
+      "display": "≥$5.18B",
+      "caption": "Documented sales†",
+      "status": "partial_documented_subtotal",
+      "lifetimeRevenueUSD": null,
+      "documentedRevenueUSD": 5186000000,
+      "currency": "USD",
+      "period": "1995–2001",
+      "scope": "Bristol-Myers Squibb worldwide captopril-containing brands, reported as Capoten/Capozide. Includes the captopril/hydrochlorothiazide combination.",
+      "note": "This is a documented historical subtotal, not lifetime worldwide revenue. It excludes sales before 1995, after 2001 and third-party generics. 1995 and 1996 are reconstructed from the exact reported sales declines. The floating value is rounded down.",
+      "annualFigures": [
+        {
+          "year": 1995,
+          "usdMillions": 1539,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-98-000002.txt",
+          "derivation": "1997 sales 795 + 1997 decline 296 + 1996 US decline 377 + 1996 international decline 71 = 1539. The 377 and 71 declines are in the 1996 annual report.",
+          "additionalSourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-97-000008.txt"
+        },
+        {
+          "year": 1996,
+          "usdMillions": 1091,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-98-000002.txt",
+          "derivation": "1997 sales 795 + reported year-on-year decline 296 = 1091; 1996 annual report rounds this to $1.1 billion."
+        },
+        {
+          "year": 1997,
+          "usdMillions": 795,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-98-000002.txt"
+        },
+        {
+          "year": 1998,
+          "usdMillions": 636,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/000001427201500006/r10k1231.htm"
+        },
+        {
+          "year": 1999,
+          "usdMillions": 484,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/000001427201500006/r10k1231.htm"
+        },
+        {
+          "year": 2000,
+          "usdMillions": 356,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/000001427201500006/r10k1231.htm"
+        },
+        {
+          "year": 2001,
+          "usdMillions": 285,
+          "reporter": "Bristol-Myers Squibb",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/14272/000091205702013034/a2074555z10-k405.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "bms1996",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-97-000008.txt"
+        },
+        {
+          "label": "bms1997",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/0000014272-98-000002.txt"
+        },
+        {
+          "label": "bms2000",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427201500006/r10k1231.htm"
+        },
+        {
+          "label": "bms2001",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000091205702013034/a2074555z10-k405.htm"
+        }
+      ]
+    },
+    "gila": {
+      "drug": "Exenatide · Byetta",
+      "display": "≥$4.99B",
+      "caption": "Documented sales†",
+      "status": "partial_documented_subtotal",
+      "lifetimeRevenueUSD": null,
+      "documentedRevenueUSD": 4996500000,
+      "currency": "USD",
+      "period": "2005–2011; 2014–2021",
+      "scope": "Byetta only: Amylin-reported US net product sales in 2005–2011 plus AstraZeneca-reported product sales in 2014–2021. Bydureon, Bydureon BCise, Ozempic and all semaglutide products are excluded.",
+      "note": "This is a non-overlapping documented sales subtotal, not lifetime global sales. It excludes 2012–2013, sales after 2021, early non-US Lilly sales and additional licensee sales not consolidated by these reporters. Do not add Lilly US profit-share to Amylin sales, which would double-count the same sales. The floating value is rounded down.",
+      "annualFigures": [
+        {
+          "year": 2005,
+          "usdMillions": 75.2,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000110465908013367/a08-5970_110k.htm"
+        },
+        {
+          "year": 2006,
+          "usdMillions": 430.2,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000110465908013367/a08-5970_110k.htm"
+        },
+        {
+          "year": 2007,
+          "usdMillions": 636,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000110465908013367/a08-5970_110k.htm"
+        },
+        {
+          "year": 2008,
+          "usdMillions": 678.5,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000104746911001418/a2202197z10-k.htm"
+        },
+        {
+          "year": 2009,
+          "usdMillions": 667.6,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000104746911001418/a2202197z10-k.htm"
+        },
+        {
+          "year": 2010,
+          "usdMillions": 559.3,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000104746911001418/a2202197z10-k.htm"
+        },
+        {
+          "year": 2011,
+          "usdMillions": 517.7,
+          "reporter": "Amylin (US net product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/881464/000119312512072788/d260205d10k.htm"
+        },
+        {
+          "year": 2014,
+          "usdMillions": 327,
+          "reporter": "AstraZeneca (reported product revenue)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000119163815000137/azn201502056k.htm"
+        },
+        {
+          "year": 2015,
+          "usdMillions": 316,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465918015257/R40.htm"
+        },
+        {
+          "year": 2016,
+          "usdMillions": 254,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465918015257/R40.htm"
+        },
+        {
+          "year": 2017,
+          "usdMillions": 176,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465918015257/R40.htm"
+        },
+        {
+          "year": 2018,
+          "usdMillions": 126,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465919012881/R9.htm"
+        },
+        {
+          "year": 2019,
+          "usdMillions": 110,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465922025720/R42.htm"
+        },
+        {
+          "year": 2020,
+          "usdMillions": 68,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465922025720/R42.htm"
+        },
+        {
+          "year": 2021,
+          "usdMillions": 55,
+          "reporter": "AstraZeneca (reported product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000110465922025720/R42.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "amylin2007",
+          "url": "https://www.sec.gov/Archives/edgar/data/881464/000110465908013367/a08-5970_110k.htm"
+        },
+        {
+          "label": "amylin2010",
+          "url": "https://www.sec.gov/Archives/edgar/data/881464/000104746911001418/a2202197z10-k.htm"
+        },
+        {
+          "label": "amylin2011",
+          "url": "https://www.sec.gov/Archives/edgar/data/881464/000119312512072788/d260205d10k.htm"
+        },
+        {
+          "label": "az2014",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000119163815000137/azn201502056k.htm"
+        },
+        {
+          "label": "az2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465918015257/R40.htm"
+        },
+        {
+          "label": "az2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465919012881/R9.htm"
+        },
+        {
+          "label": "az2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465922025720/R42.htm"
+        }
+      ]
+    },
+    "cone": {
+      "drug": "Ziconotide · Prialt",
+      "display": "≥$253M",
+      "caption": "Documented sales†",
+      "status": "partial_documented_subtotal",
+      "lifetimeRevenueUSD": null,
+      "documentedRevenueUSD": 253444000,
+      "currency": "USD",
+      "period": "2005–May 2010; 2012–September 2018",
+      "scope": "Prialt product sales reported by Elan and Jazz for the US-rights business. Jazz 2012 uses the reported $26.360m rather than the $26.699m pro forma value.",
+      "note": "This is a documented subtotal, not lifetime global sales. It excludes the gap between Elan divestiture and Jazz consolidation, post-September-2018 TerSera sales, and non-US rights-holder sales. Excludes rights-sale proceeds, acquisition consideration and royalty receipts to avoid treating transfers as drug sales. The floating value is rounded down.",
+      "annualFigures": [
+        {
+          "year": 2005,
+          "usdMillions": 6.3,
+          "reporter": "Elan (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000095013407007050/f28679exv99w1.htm"
+        },
+        {
+          "year": 2006,
+          "usdMillions": 12.1,
+          "reporter": "Elan (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000095013407007050/f28679exv99w1.htm"
+        },
+        {
+          "year": 2007,
+          "usdMillions": 12.3,
+          "reporter": "Elan (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000089161808000129/f38209e20vf.htm"
+        },
+        {
+          "year": 2008,
+          "usdMillions": 16.5,
+          "reporter": "Elan (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000089161809000113/f51975exv99w1.htm"
+        },
+        {
+          "year": 2009,
+          "usdMillions": 16.5,
+          "reporter": "Elan (US product sales, 2010 until May divestment)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000095016211000042/ex99_1.htm"
+        },
+        {
+          "year": 2010,
+          "usdMillions": 6.1,
+          "reporter": "Elan (US product sales, 2010 until May divestment)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/737572/000095016211000042/ex99_1.htm"
+        },
+        {
+          "year": 2012,
+          "usdMillions": 26.36,
+          "reporter": "Jazz (US rights; reported, not pro forma)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252415000030/R22.htm"
+        },
+        {
+          "year": 2013,
+          "usdMillions": 27.103,
+          "reporter": "Jazz (US rights; reported, not pro forma)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252415000030/R22.htm"
+        },
+        {
+          "year": 2014,
+          "usdMillions": 26.421,
+          "reporter": "Jazz (US rights; reported, not pro forma)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252415000030/R22.htm"
+        },
+        {
+          "year": 2015,
+          "usdMillions": 26.44,
+          "reporter": "Jazz (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252418000018/R24.htm"
+        },
+        {
+          "year": 2016,
+          "usdMillions": 29.12,
+          "reporter": "Jazz (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252418000018/R24.htm"
+        },
+        {
+          "year": 2017,
+          "usdMillions": 27.361,
+          "reporter": "Jazz (US product sales)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252418000018/R24.htm"
+        },
+        {
+          "year": 2018,
+          "usdMillions": 20.839,
+          "reporter": "Jazz (US product sales until September divestment)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000123252419000013/jazz1231201810k.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "elan2006",
+          "url": "https://www.sec.gov/Archives/edgar/data/737572/000095013407007050/f28679exv99w1.htm"
+        },
+        {
+          "label": "elan2007",
+          "url": "https://www.sec.gov/Archives/edgar/data/737572/000089161808000129/f38209e20vf.htm"
+        },
+        {
+          "label": "elan2008",
+          "url": "https://www.sec.gov/Archives/edgar/data/737572/000089161809000113/f51975exv99w1.htm"
+        },
+        {
+          "label": "elan2010",
+          "url": "https://www.sec.gov/Archives/edgar/data/737572/000095016211000042/ex99_1.htm"
+        },
+        {
+          "label": "jazz2014",
+          "url": "https://www.sec.gov/Archives/edgar/data/1232524/000123252415000030/R22.htm"
+        },
+        {
+          "label": "jazz2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1232524/000123252418000018/R24.htm"
+        },
+        {
+          "label": "jazz2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1232524/000123252419000013/jazz1231201810k.htm"
+        }
+      ]
+    },
+    "bee": {
+      "drug": "Honeybee venom allergenic extract",
+      "display": "≈$9–21M/yr",
+      "caption": "Modeled US · 2021 prices",
+      "status": "illustrative_annual_list_price_model",
+      "lifetimeRevenueUSD": null,
+      "documentedRevenueUSD": null,
+      "estimatedAnnualRangeUSD": [
+        8805736,
+        20729348
+      ],
+      "currency": "USD at 2021 manufacturer list prices",
+      "period": "Illustrative annual scenario; inputs from 2018–2023",
+      "scope": "US honeybee-venom immunotherapy extract category, modeled at HollisterStier 2021 list prices. Not a manufacturer-specific historical revenue total.",
+      "note": "This is a scenario for annual gross extract spending, not disclosed net sales or lifetime revenue. It combines the manufacturer’s 2018 estimate of 50,000–75,000 US VIT patients, honeybee treatment shares from a US military-beneficiary cohort, monthly/four-week maintenance, and a 2021 price list. Applying cohort shares nationally and holding inputs together is an explicit modeling assumption. Discounts, build-up, diagnostic use, wastage, high-dose treatment, historical uptake and later price changes are not measured here. The range is not a confidence interval. Complete lifetime revenue remains unavailable.",
+      "model": {
+        "formula": "US VIT patients × honeybee-treatment share × annual 100-microgram doses × USD per dose",
+        "low": {
+          "patients": 50000,
+          "honeybeeShare": 0.5017513134851138,
+          "annualDoses": 12,
+          "usdPerDose": 29.25,
+          "resultUSD": 8805735.551663747
+        },
+        "high": {
+          "patients": 75000,
+          "honeybeeShare": 0.6521739130434783,
+          "annualDoses": 13,
+          "usdPerDose": 32.6,
+          "resultUSD": 20729347.82608696
+        }
+      },
+      "annualFigures": [],
+      "sources": [
+        {
+          "label": "HollisterStier-funded 2018 reimbursement paper: estimated US VIT patient count",
+          "url": "https://www.hsally.com/wp-content/uploads/2019/05/Venom-Immunotherapy-Reimbursement.pdf",
+          "fact": "The manufacturer reports an internal estimate of 50,000–75,000 patients treated with VIT; it is attributed to Constable, personal communication, 2018. This is not an audited census. The paper describes approximately four-week maintenance intervals."
+        },
+        {
+          "label": "HollisterStier 2021 price list, effective 1 July 2021",
+          "url": "https://www.hsally.com/wp-content/uploads/2021/07/2021-Price-List-HS28.pdf",
+          "fact": "Honey Bee Venom: item 6781PG, five doses for $163; item 6781UX, twelve doses for $351. Thus list cost is $32.60 or $29.25 per labeled dose."
+        },
+        {
+          "label": "McMurray et al., 2025: original US Tricare prescription study",
+          "url": "https://www.frontiersin.org/journals/allergy/articles/10.3389/falgy.2025.1570123/full",
+          "fact": "Among 1,911 current beneficiaries with prescription histories, 878 had fire-ant IT and 109 had both fire-ant and flying-Hymenoptera IT, giving 1,142 with flying-Hymenoptera IT. Honeybee appeared in 573 histories (50.18% of 1,142). In 2023, 75 of 115 new flying-Hymenoptera patients received honeybee extract (65.22%). These are treatment-pattern anchors, not a nationally representative market census."
+        },
+        {
+          "label": "DailyMed: Jubilant HollisterStier multidose honeybee-venom label",
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e9fb453-91a7-4072-bd73-d7209ba50697",
+          "fact": "Maintenance is 100 micrograms per venom, approximately monthly after escalation; honeybee marketing start is 16 October 1979."
+        },
+        {
+          "label": "Jubilant Pharmova May 2024 investor release",
+          "url": "https://www.jubilantpharmova.com/Uploads/image/2702imguf_STXPressRelease.pdf",
+          "fact": "Company describes itself as sole US venom supplier, while Allergy Immunotherapy segment revenue includes other allergenic extracts. It does not disclose honeybee-specific net sales."
+        }
+      ]
+    }
+  }
+}
